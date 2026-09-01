@@ -1968,28 +1968,33 @@ if (menuBtn) {
     menuBtn.setAttribute("aria-label", open ? "메뉴 닫기" : "메뉴 열기");
   });
 }
-document.querySelectorAll(".site-nav a, .nav-cta, .brand").forEach(function(a){
-  a.addEventListener("click", function(){
-    var href = a.getAttribute("href") || "";
-    setTimeout(function(){
-      closeMenu();
-      if (href.charAt(0) === "#" && href === location.hash) render(null);
-    }, 0);
-  });
-});
-var pendingScroll = null;
-document.addEventListener("click", function(e){
-  var a = e.target.closest ? e.target.closest("a[data-scroll]") : null;
-  if (a) {
-    pendingScroll = a.getAttribute("data-scroll");
-    if (currentRoute() === "organization") { render(pendingScroll); pendingScroll = null; }
-  }
-});
-window.addEventListener("hashchange", function(){
-  var s = pendingScroll; pendingScroll = null;
+function go(href, scrollTo){
   closeMenu();
-  render(s);
+  if (location.hash !== href) {
+    location.hash = href;
+  }
+  render(scrollTo);
+}
+
+document.addEventListener("click", function(e){
+  var t = e.target;
+  var a = null;
+  while (t && t !== document) {
+    if (t.tagName === "A") { a = t; break; }
+    t = t.parentNode;
+  }
+  if (!a) return;
+  var href = a.getAttribute("href") || "";
+  if (href.slice(0, 2) !== "#/") return;
+  e.preventDefault();
+  go(href, a.getAttribute("data-scroll"));
 });
+
+window.addEventListener("hashchange", function(){
+  closeMenu();
+  render(null);
+});
+
 render(null);
 </script>
 </body>
