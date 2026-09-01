@@ -1,0 +1,1988 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>생각테라피교육연구소 | 생각을 행동으로 연결하는 마인드맵 교육</title>
+<meta name="description" content="교육청·학교·대학·공공기관·청년기관·가족센터·교회와 개인을 위한 마인드맵 교육. 생각을 꺼내고 연결하여 학습·업무·진로·소통·묵상에서 다음 행동을 찾도록 돕습니다.">
+<meta name="author" content="생각테라피교육연구소">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="생각테라피교육연구소">
+<meta property="og:title" content="생각테라피교육연구소 | 생각을 행동으로 연결하는 마인드맵 교육">
+<meta property="og:description" content="교육청·학교·대학·공공기관·청년기관·가족센터·교회와 개인을 위한 마인드맵 교육. 생각을 꺼내고 연결하여 학습·업무·진로·소통·묵상에서 다음 행동을 찾도록 돕습니다.">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "생각테라피교육연구소",
+  "description": "교육청·학교·대학·공공기관·청년기관·가족센터·교회와 개인을 위한 마인드맵 교육. 생각을 꺼내고 연결하여 학습·업무·진로·소통·묵상에서 다음 행동을 찾도록 돕습니다.",
+  "email": "gloshim@naver.com",
+  "telephone": "+82-10-2824-0708",
+  "founder": {"@type": "Person", "name": "김연정"},
+  "sameAs": ["https://blog.naver.com/gloshim"]
+}
+</script>
+<style>
+
+:root{
+  --ink:#101828;
+  --muted:#667085;
+  --line:#e5e7eb;
+  --orange:#d97706;
+  --shadow:0 24px 80px rgba(17,24,39,.14);
+  --shadow2:0 12px 36px rgba(17,24,39,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Pretendard Variable',Pretendard,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+  color:var(--ink);background:#fff;word-break:keep-all;overflow-wrap:break-word;overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+a{text-decoration:none;color:inherit}
+button{font:inherit;cursor:pointer}
+img{display:block;max-width:100%}
+:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
+
+/* ── header ── */
+.site-header{
+  position:fixed;inset:0 0 auto;z-index:100;display:flex;align-items:center;justify-content:space-between;
+  gap:24px;padding:16px clamp(20px,5vw,72px);background:rgba(255,255,255,.84);
+  backdrop-filter:blur(18px);border-bottom:1px solid rgba(17,24,39,.08);
+}
+.brand{font-weight:900;letter-spacing:-.02em;font-size:18px;line-height:1.3}
+.brand .sub{display:block;font-size:12px;font-weight:400;color:var(--muted);letter-spacing:0;margin-top:2px}
+.site-nav{display:flex;align-items:center;gap:24px}
+.site-nav a{font-size:14px;font-weight:700;color:#344054}
+.site-nav a:hover{color:var(--orange)}
+.nav-cta{background:var(--orange);color:#fff !important;padding:11px 18px;border-radius:999px;
+  font-size:14px;font-weight:700;white-space:nowrap;box-shadow:0 14px 30px rgba(217,119,6,.25)}
+.nav-cta:hover{background:#b45309}
+@media (max-width:1040px){
+  .site-header{flex-wrap:wrap;gap:12px}
+  .site-nav{order:3;width:100%;gap:16px;row-gap:6px;flex-wrap:wrap}
+}
+
+/* ── hero ── */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;
+  padding:112px clamp(20px,5vw,72px) 72px;background:#101828;color:#fff;overflow:hidden}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(120deg,rgba(16,24,40,.98) 0%,rgba(16,24,40,.86) 34%,rgba(16,24,40,.56) 66%,rgba(16,24,40,.3) 100%),
+             url("assets/img-4855166765.jpg") center/cover no-repeat;
+  transform:scale(1.02);
+}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:150px;
+  background:linear-gradient(180deg,transparent,#fff)}
+.hero-in{position:relative;z-index:2;max-width:1384px;margin:0 auto;width:100%}
+.hero-text{max-width:760px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;padding:9px 14px;
+  border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.10);border-radius:999px;
+  color:#fed7aa;font-size:12px;font-weight:900;letter-spacing:.14em}
+.hero h1{font-size:clamp(42px,6.6vw,88px);line-height:1.04;letter-spacing:-.04em;
+  margin:28px 0 26px;font-weight:900}
+.hero h1 span{color:#fbbf24}
+.hero-copy{max-width:700px;color:rgba(255,255,255,.82);font-size:19px;line-height:1.8}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}
+.hero-note{display:inline-block;margin-top:26px;color:#fff;font-weight:700;font-size:15px;
+  border-bottom:1px solid rgba(255,255,255,.45);padding-bottom:3px}
+@media (max-width:820px){
+  .hero::before{background:linear-gradient(180deg,rgba(16,24,40,.96) 0%,rgba(16,24,40,.88) 55%,rgba(16,24,40,.6) 100%),
+    url("assets/img-4855166765.jpg") center/cover no-repeat}
+}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;
+  padding:0 24px;border-radius:999px;font-weight:900;font-size:15px;border:0}
+.btn.primary{background:var(--orange);color:#fff;box-shadow:0 20px 44px rgba(217,119,6,.34)}
+.btn.primary:hover{background:#b45309}
+.btn.ghost{border:1px solid rgba(255,255,255,.32);color:#fff;background:rgba(255,255,255,.08)}
+.btn.ghost:hover{background:rgba(255,255,255,.16)}
+.btn.dark{background:#101828;color:#fff}
+.btn.dark:hover{background:#1f2937}
+.btn.line{background:#fff;color:#101828;border:1px solid var(--line)}
+.btn.line:hover{border-color:var(--orange);color:var(--orange)}
+
+/* ── home links ── */
+.home-links{position:relative;z-index:3;max-width:1240px;margin:-70px auto 0;
+  padding:0 clamp(20px,5vw,72px);display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media (max-width:900px){.home-links{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.home-links{grid-template-columns:1fr}}
+.feature-link{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;
+  box-shadow:var(--shadow2);transition:transform .2s,border-color .2s}
+.feature-link:hover{transform:translateY(-3px);border-color:var(--orange)}
+.feature-link b{display:block;font-size:19px;margin-bottom:7px;letter-spacing:-.03em}
+.feature-link span{color:var(--muted);font-size:14px;line-height:1.6}
+
+/* ── sections ── */
+.section{padding:106px clamp(20px,5vw,72px);max-width:1384px;margin:0 auto}
+.section.split{display:grid;grid-template-columns:.95fr 1.05fr;gap:42px;align-items:center}
+.section.split.rev{grid-template-columns:1.05fr .95fr}
+@media (max-width:900px){.section.split,.section.split.rev{grid-template-columns:1fr;gap:32px}}
+.kicker{color:var(--orange);font-size:12px;font-weight:900;letter-spacing:.16em;margin-bottom:10px}
+h2{font-size:clamp(32px,4vw,54px);line-height:1.12;letter-spacing:-.035em;font-weight:900;margin-bottom:18px}
+h3{font-weight:900;letter-spacing:-.03em}
+.section p:not(.kicker),.band-in p:not(.kicker){color:var(--muted);font-size:16px;line-height:1.8}
+.section-head{margin-bottom:34px}
+.section-head p:not(.kicker){max-width:840px;font-size:17px;line-height:1.85}
+.shot{border-radius:24px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line)}
+.shot img{width:100%;aspect-ratio:4/3;object-fit:cover}
+
+/* band */
+.band{background:#f7f8fa}
+.band-in{max-width:1384px;margin:0 auto;padding:106px clamp(20px,5vw,72px)}
+
+/* org duo */
+.org-duo{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+@media (max-width:820px){.org-duo{grid-template-columns:1fr}}
+.org-card{background:#fff;border:1px solid var(--line);border-radius:26px;padding:32px;
+  box-shadow:var(--shadow2);transition:transform .2s,border-color .2s}
+.org-card:hover{transform:translateY(-3px);border-color:var(--orange)}
+.org-card>span{display:inline-flex;margin-bottom:16px;color:var(--orange);font-size:12px;font-weight:900;letter-spacing:.16em}
+.org-card h3{font-size:clamp(22px,2.4vw,30px);line-height:1.25;margin-bottom:12px}
+.org-card p{color:var(--muted);font-size:16px;line-height:1.8}
+.org-card .text-link{display:inline-flex;margin-top:22px;color:var(--orange);font-weight:900;font-size:15px}
+.org-card dl{display:grid;margin-top:22px;border-top:1px solid var(--line)}
+.org-card dl div{padding:14px 0;border-bottom:1px solid var(--line)}
+.org-card dt{font-weight:900;font-size:14px;letter-spacing:-.02em}
+.org-card dd{margin-top:5px;color:var(--muted);line-height:1.6;font-size:14.5px}
+
+/* philosophy */
+.philosophy-section{background:#f2f4f7;padding:118px clamp(20px,5vw,72px)}
+.philosophy-in{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:1.02fr .98fr;gap:48px;align-items:center}
+@media (max-width:900px){.philosophy-in{grid-template-columns:1fr;gap:32px}}
+.philosophy-in h2{font-size:clamp(38px,5.4vw,72px);line-height:1.08;letter-spacing:-.04em;color:#111827;margin-bottom:24px}
+.philosophy-in p:not(.kicker){color:var(--muted);font-size:17px;line-height:1.85;max-width:760px}
+.pull{margin-top:26px;padding:24px 28px;background:#fff;border:1px solid var(--line);border-radius:22px;
+  box-shadow:var(--shadow2);font-size:clamp(17px,1.9vw,21px);font-weight:900;line-height:1.6;letter-spacing:-.025em}
+.cert-notice{margin-top:14px;border:1px solid #fde68a;background:#fffbeb;color:#92400e;border-radius:18px;
+  padding:18px 20px;font-weight:700;line-height:1.7;font-size:14px}
+
+/* process */
+.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media (max-width:900px){.process-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.process-grid{grid-template-columns:1fr}}
+.process-grid article{background:#f8fafc;border:1px solid var(--line);border-radius:20px;padding:22px}
+.process-grid span{color:var(--orange);font-size:13px;font-weight:900;letter-spacing:.14em}
+.process-grid b{display:block;font-size:20px;margin:14px 0 8px;letter-spacing:-.03em}
+.process-grid p{color:var(--muted);line-height:1.65;font-size:15px}
+
+/* card grid */
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media (max-width:900px){.card-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.card-grid{grid-template-columns:1fr}}
+.info-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);
+  border-radius:20px;padding:26px;box-shadow:var(--shadow2);transition:transform .2s,border-color .2s}
+.info-card:hover{transform:translateY(-3px);border-color:var(--orange)}
+.info-card h3{font-size:20px;line-height:1.4;margin-bottom:10px}
+.info-card p{color:var(--muted);line-height:1.7;font-size:15px}
+.info-card b{margin-top:auto;padding-top:18px;color:var(--orange);font-size:14px;font-weight:900}
+
+/* trust list */
+.outcome-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:520px){.outcome-grid{grid-template-columns:1fr}}
+.outcome-grid div{padding:16px 18px;border:1px solid var(--line);border-radius:16px;background:#f9fafb}
+.outcome-grid b{display:block;font-size:15.5px;letter-spacing:-.025em;margin-bottom:4px}
+.outcome-grid span{color:var(--muted);font-size:13.5px;line-height:1.55}
+
+.curri{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+@media (max-width:1100px){.curri{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:700px){.curri{grid-template-columns:1fr 1fr}}
+@media (max-width:460px){.curri{grid-template-columns:1fr}}
+.curri article{background:#f8fafc;border:1px solid var(--line);border-radius:20px;padding:24px 20px;
+  display:flex;flex-direction:column;gap:8px}
+.curri .no{color:var(--orange);font-size:12px;font-weight:900;letter-spacing:.14em}
+.curri b{font-size:19px;letter-spacing:-.03em;line-height:1.35}
+.curri p{color:var(--muted);font-size:14.5px;line-height:1.65}
+
+.record{border-top:1px solid var(--line);margin-top:4px}
+.record .row{display:grid;grid-template-columns:96px 1fr;gap:20px;padding:17px 4px;
+  border-bottom:1px solid var(--line);align-items:baseline}
+@media (max-width:600px){.record .row{grid-template-columns:1fr;gap:4px;padding:15px 4px}}
+.record .yr{font-weight:900;font-size:14px;color:var(--orange);font-variant-numeric:tabular-nums;white-space:nowrap}
+.record b{display:block;font-size:16.5px;font-weight:900;letter-spacing:-.025em;margin-bottom:3px;line-height:1.45}
+.record span{color:var(--muted);font-size:14.5px;line-height:1.6}
+.record .orgs{display:flex;flex-wrap:wrap;gap:8px}
+.record .orgs b{padding:8px 13px;border-radius:999px;background:#f2f4f7;color:#344054;
+  font-size:14px;font-weight:700;letter-spacing:-.01em}
+.record .etc{padding:18px 4px;color:var(--muted);font-size:14.5px}
+
+
+/* gallery + cases */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:26px}
+@media (max-width:820px){.gal{grid-template-columns:1fr 1fr}}
+.gal figure{border-radius:18px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow2)}
+.gal img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+.pill-row b{padding:8px 12px;border-radius:999px;background:#f2f4f7;color:#475467;font-size:13px;font-weight:700}
+
+/* posts */
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:820px){.posts{grid-template-columns:1fr}}
+.post{display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid var(--line);
+  border-radius:18px;padding:24px;box-shadow:var(--shadow2);transition:transform .2s,border-color .2s}
+.post:hover{transform:translateY(-3px);border-color:var(--orange)}
+.post .date{font-size:13px;font-weight:700;color:#98a2b3;font-variant-numeric:tabular-nums}
+.post .title{font-size:16px;font-weight:700;line-height:1.6;letter-spacing:-.02em}
+.post .more{margin-top:auto;padding-top:12px;color:var(--orange);font-size:13px;font-weight:900}
+
+/* ── contact ── */
+.contact-panel{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;
+  background:#101828;color:#fff;border-radius:26px;padding:34px;box-shadow:var(--shadow);margin-bottom:18px}
+.contact-panel h3{font-size:clamp(24px,3vw,32px);letter-spacing:-.035em;margin-bottom:10px}
+.contact-panel p{max-width:620px;color:rgba(255,255,255,.76);line-height:1.8;font-size:16px}
+.contact-panel .kicker{color:#fbbf24}
+.btn.kakao{background:#FEE500;color:#191600;box-shadow:0 20px 44px rgba(254,229,0,.26)}
+.btn.kakao:hover{background:#f2da00}
+
+.form-duo{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+@media (max-width:900px){.form-duo{grid-template-columns:1fr}}
+.form-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);
+  border-radius:26px;padding:32px;box-shadow:var(--shadow2)}
+.form-card>span{display:inline-flex;margin-bottom:14px;color:var(--orange);font-size:12px;font-weight:900;letter-spacing:.16em}
+.form-card h3{font-size:24px;line-height:1.3;margin-bottom:10px}
+.form-card>p{color:var(--muted);font-size:15px;line-height:1.75;margin-bottom:20px}
+.form-list{list-style:none;border-top:1px solid var(--line);margin-bottom:20px}
+.form-list li{display:flex;align-items:baseline;gap:10px;padding:11px 2px;border-bottom:1px solid var(--line);
+  font-size:14.5px;color:#344054;line-height:1.5}
+.form-list i{font-style:normal;flex:0 0 auto;font-size:11px;font-weight:900;padding:3px 7px;border-radius:999px}
+.form-list .req{background:#fff7ed;color:#b45309;border:1px solid #fed7aa}
+.form-list .opt{background:#f2f4f7;color:#667085;border:1px solid var(--line)}
+.form-actions{margin-top:auto;display:flex;gap:10px;flex-wrap:wrap}
+.form-actions .btn{flex:1 1 auto;min-width:152px}
+.copy-note{margin-top:12px;font-size:13px;color:#98a2b3;line-height:1.6}
+.contact-line{margin-top:22px;padding:20px 24px;background:#f8fafc;border:1px solid var(--line);
+  border-radius:18px;display:flex;gap:26px;flex-wrap:wrap;align-items:center}
+.contact-line b{font-size:15px;font-weight:900}
+.field{display:grid;gap:6px;margin-bottom:12px}
+.field label{font-size:13.5px;font-weight:900;color:#344054;letter-spacing:-.01em}
+.field label i{font-style:normal;color:var(--orange);margin-left:3px}
+.field input,.field select,.field textarea{width:100%;padding:12px 14px;border:1px solid var(--line);
+  border-radius:14px;font:inherit;font-size:15px;background:#fff;color:var(--ink)}
+.field textarea{min-height:104px;resize:vertical;line-height:1.6}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--orange);
+  box-shadow:0 0 0 3px rgba(217,119,6,.13)}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:520px){.field-row{grid-template-columns:1fr}}
+details.more{margin:4px 0 14px;border:1px solid var(--line);border-radius:16px;background:#f9fafb;padding:0 16px}
+details.more summary{cursor:pointer;padding:14px 0;font-size:14px;font-weight:900;color:#344054;list-style:none}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary::after{content:"  +";color:var(--orange)}
+details.more[open] summary::after{content:"  −"}
+details.more .inner{padding-bottom:12px}
+.consent{display:flex;gap:9px;align-items:flex-start;margin:4px 0 16px;font-size:13.5px;color:#475467;line-height:1.6}
+.consent input{margin-top:3px;width:16px;height:16px;accent-color:var(--orange);flex:0 0 auto}
+.form-status{margin-top:14px;padding:16px 18px;border-radius:16px;font-size:14px;line-height:1.7;display:none}
+.form-status.show{display:block}
+.form-status.ok{background:#ecfdf5;border:1px solid #a7f3d0;color:#065f46}
+.form-status.info{background:#fffbeb;border:1px solid #fde68a;color:#92400e}
+.form-status .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.form-status .row .btn{min-height:42px;font-size:14px;padding:0 18px}
+.contact-line span{color:var(--muted);font-size:15px}
+
+/* footer */
+.site-footer{background:#101828;color:rgba(255,255,255,.62);padding:56px clamp(20px,5vw,72px) 60px}
+.foot{max-width:1384px;margin:0 auto;display:grid;grid-template-columns:1fr auto;gap:32px}
+@media (max-width:820px){.foot{grid-template-columns:1fr}}
+.foot b{color:#fff;font-weight:900;font-size:18px;letter-spacing:-.03em}
+.foot p{font-size:14px;line-height:1.85;margin-top:10px}
+.foot-links{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start}
+.foot-links a{font-size:14px;font-weight:700;color:rgba(255,255,255,.74)}
+.foot-links a:hover{color:#fbbf24}
+.preview-note{max-width:1384px;margin:32px auto 0;padding-top:20px;
+  border-top:1px solid rgba(255,255,255,.12);font-size:13px;line-height:1.7;color:rgba(255,255,255,.45)}
+
+/* ── 라우팅 ── */
+.page{display:none}
+.page.active{display:block}
+.site-nav a.on{color:var(--orange)}
+
+/* ── 서브 페이지 히어로 ── */
+.page-hero{position:relative;min-height:58vh;display:flex;align-items:flex-end;
+  padding:150px clamp(20px,5vw,72px) 64px;background:#101828;color:#fff;overflow:hidden}
+.page-hero::before{content:"";position:absolute;inset:0;background-size:cover;background-position:center;
+  transform:scale(1.02)}
+.page-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;
+  background:linear-gradient(180deg,transparent,#fff)}
+.page-hero-in{position:relative;z-index:2;max-width:1384px;margin:0 auto;width:100%}
+.page-hero h1{font-size:clamp(32px,4.6vw,60px);line-height:1.1;letter-spacing:-.04em;margin:22px 0 20px;font-weight:900}
+.page-hero p{max-width:760px;color:rgba(255,255,255,.82);font-size:18px;line-height:1.8}
+.ph-about::before{background-image:linear-gradient(120deg,rgba(16,24,40,.96),rgba(16,24,40,.8) 55%,rgba(16,24,40,.5)),url("assets/img-34031f87f8.jpg")}
+.ph-org::before{background-image:linear-gradient(120deg,rgba(16,24,40,.96),rgba(16,24,40,.8) 55%,rgba(16,24,40,.5)),url("assets/img-27748e6f4f.jpg")}
+.ph-personal::before{background-image:linear-gradient(120deg,rgba(16,24,40,.96),rgba(16,24,40,.8) 55%,rgba(16,24,40,.5)),url("assets/img-90fcc48c34.jpg")}
+.ph-cert::before{background-image:linear-gradient(120deg,rgba(16,24,40,.96),rgba(16,24,40,.8) 55%,rgba(16,24,40,.5)),url("assets/img-3f6e38778a.jpg")}
+.ph-cases::before{background-image:linear-gradient(120deg,rgba(16,24,40,.96),rgba(16,24,40,.78) 55%,rgba(16,24,40,.46)),url("assets/img-37718c73fa.jpg")}
+.ph-contact::before{background-image:linear-gradient(120deg,rgba(16,24,40,.96),rgba(16,24,40,.8) 55%,rgba(16,24,40,.5)),url("assets/img-4855166765.jpg")}
+
+/* ── 서브 페이지 요소 ── */
+.split-copy{max-width:840px;display:grid;gap:14px}
+.split-copy p{color:var(--muted);font-size:17px;line-height:1.9}
+.lede-w{color:var(--muted);font-size:17px;line-height:1.85;max-width:840px;margin-bottom:26px}
+.subsec{scroll-margin-top:130px}
+.subsec+.subsec{margin-top:76px;padding-top:66px;border-top:1px solid var(--line)}
+.section-head+.subsec{margin-top:0}
+.subsec .voices+.voices{margin-top:14px}
+.subsec>.kicker{margin-bottom:14px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:44px}
+.tabs a{border:1px solid var(--line);background:#fff;color:#475467;border-radius:999px;
+  padding:11px 17px;font-weight:900;font-size:14px}
+.tabs a:hover{background:#101828;color:#fff;border-color:#101828}
+.prog{display:grid;gap:14px}
+.prog-row{display:grid;grid-template-columns:74px 1fr;gap:22px;background:#fff;border:1px solid var(--line);
+  border-radius:24px;padding:30px;box-shadow:var(--shadow2)}
+@media (max-width:700px){.prog-row{grid-template-columns:1fr;gap:10px;padding:26px}}
+.prog-row>span{font-size:30px;font-weight:900;color:var(--orange);letter-spacing:-.04em;line-height:1}
+.prog-row h3{font-size:20px;line-height:1.4;margin-bottom:8px}
+.prog-row p{color:var(--muted);font-size:15px;line-height:1.7}
+.outs-line{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-top:22px;
+  padding:18px 20px;background:#f8fafc;border:1px solid var(--line);border-radius:18px}
+.outs-line>span{font-size:13px;font-weight:900;color:#344054;letter-spacing:-.01em;white-space:nowrap}
+.info-box{margin-top:22px;padding:22px 24px;background:#f8fafc;border:1px solid var(--line);border-radius:18px;max-width:840px}
+.info-box b{display:block;font-size:16px;font-weight:900;letter-spacing:-.025em;margin-bottom:7px}
+.info-box p{color:var(--muted);font-size:15px;line-height:1.75;margin:0}
+.stat-row{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:20px}
+@media (max-width:640px){.stat-row{grid-template-columns:1fr}}
+.stat-box{background:#f8fafc;border:1px solid var(--line);border-radius:20px;padding:26px}
+.stat-box b{display:block;font-size:40px;font-weight:900;letter-spacing:-.045em;color:var(--orange);line-height:1.05;font-variant-numeric:tabular-nums}
+.stat-box span{display:block;margin-top:8px;font-size:14.5px;color:var(--muted);line-height:1.65}
+.voices{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media (max-width:820px){.voices{grid-template-columns:1fr}}
+.voices .subsec+.subsec{margin-top:0}
+.voice{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px 26px;box-shadow:var(--shadow2)}
+.voice blockquote{font-size:18px;font-weight:900;letter-spacing:-.03em;line-height:1.6;margin-bottom:14px}
+.voice cite{font-style:normal;color:var(--muted);font-size:14px;line-height:1.6;display:block}
+@media (max-width:560px){.voice{padding:24px 20px}.voice blockquote{font-size:16.5px}.stat-box b{font-size:34px}}
+.case-card{display:flex;flex-direction:column;gap:13px;background:#fff;border:1px solid var(--line);
+  border-radius:20px;padding:26px;box-shadow:var(--shadow2);transition:transform .2s,border-color .2s}
+.case-card:hover{transform:translateY(-3px);border-color:var(--orange)}
+.case-card h3{font-size:18px;line-height:1.5;letter-spacing:-.03em}
+.case-card p{color:var(--muted);font-size:14.5px;line-height:1.7}
+.rec-label{font-size:13px;font-weight:900;letter-spacing:.02em;color:#344054;margin-bottom:6px}
+.rec-items{display:grid;gap:11px}
+.rec-item{display:grid;grid-template-columns:minmax(190px,auto) 1fr;gap:18px;align-items:baseline}
+@media (max-width:640px){.rec-item{grid-template-columns:1fr;gap:3px}}
+.rec-item b{font-size:16.5px;font-weight:900;letter-spacing:-.025em;line-height:1.45}
+.rec-item span{color:var(--muted);font-size:14.5px;line-height:1.6}
+.process-grid.five{grid-template-columns:repeat(5,1fr)}
+@media (max-width:1100px){.process-grid.five{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:700px){.process-grid.five{grid-template-columns:1fr 1fr}}
+@media (max-width:460px){.process-grid.five{grid-template-columns:1fr}}
+.faq{display:grid;gap:10px;max-width:940px}
+.faq details{border:1px solid var(--line);border-radius:18px;background:#fff;padding:0 22px}
+.faq summary{cursor:pointer;padding:19px 0;font-weight:900;font-size:16px;list-style:none;
+  display:flex;justify-content:space-between;gap:16px;letter-spacing:-.02em}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--orange);font-size:19px;line-height:1.2}
+.faq details[open] summary::after{content:"−"}
+.faq .a{padding:16px 0 20px;color:var(--muted);font-size:15px;line-height:1.8;border-top:1px solid var(--line)}
+.dl-list{display:grid;max-width:840px}
+.dl-list div{display:grid;grid-template-columns:170px 1fr;gap:18px;padding:14px 0;border-bottom:1px solid var(--line)}
+@media (max-width:600px){.dl-list div{grid-template-columns:1fr;gap:3px}}
+.dl-list dt{font-weight:900;font-size:14.5px}
+.dl-list dd{color:var(--muted);font-size:15px;line-height:1.7}
+.legal-box{background:#f8fafc;border:1px solid var(--line);border-radius:24px;padding:32px;margin-top:12px}
+.legal-box h3{font-size:20px;margin-bottom:16px}
+.shot.portrait img{aspect-ratio:4/4.6;object-position:center 22%}
+.legal{max-width:900px;padding-top:150px}
+.legal h3{font-size:20px;margin:34px 0 12px}
+.legal ul{margin:0 0 0 18px;color:var(--muted);font-size:15.5px;line-height:1.95}
+.legal p{color:var(--muted);font-size:15.5px;line-height:1.9}
+.inline-link{color:var(--orange);font-weight:900;border-bottom:1px solid var(--orange)}
+.cta-band{background:#101828;color:#fff;border-radius:26px;padding:clamp(30px,4vw,44px);
+  display:flex;justify-content:space-between;gap:26px;flex-wrap:wrap;align-items:center;box-shadow:var(--shadow)}
+.cta-band h3{font-size:clamp(23px,3vw,34px);margin-bottom:10px;letter-spacing:-.035em}
+.cta-band p{color:rgba(255,255,255,.76);max-width:620px;font-size:16px;line-height:1.8}
+
+@media (max-width:400px){
+  .prog-row h3{font-size:15.5px}
+}
+
+/* ── 줄바꿈 ── */
+h1,h2,h3,.pull,.info-box b,.rec-item b{text-wrap:balance}
+p,li,dd,.hero-copy,.lede-w,.info-card p,.step p,.rec-item span{text-wrap:pretty}
+
+/* 폰 전용 줄바꿈 */
+.br-m{display:none}
+@media (max-width:640px){
+  .br-m{display:inline}
+  .hero h1{line-height:1.24}
+  .page-hero h1{line-height:1.26}
+  h2{line-height:1.26}
+  .philosophy-in h2{line-height:1.24}
+  .org-card h3,.form-card h3,.contact-panel h3,.cta-band h3{line-height:1.38}
+  .info-card h3{font-size:17.5px;line-height:1.5}
+  .prog-row h3{font-size:18px;line-height:1.5}
+  .prog-row>span{font-size:26px}
+  .pull{font-size:17px;line-height:1.65}
+  .section-head p:not(.kicker),.band-in .section-head p:not(.kicker){font-size:15.5px;line-height:1.8}
+  .lede-w{font-size:15.5px;line-height:1.8}
+  .split-copy p{font-size:15.5px;line-height:1.85}
+}
+
+/* ── 모바일 메뉴 ── */
+.menu-btn{display:none;border:0;background:#101828;color:#fff;border-radius:12px;
+  width:44px;height:44px;align-items:center;justify-content:center;flex:0 0 auto}
+.menu-ico,.menu-ico::before,.menu-ico::after{display:block;width:18px;height:2px;
+  background:#fff;border-radius:2px;transition:transform .2s,opacity .2s}
+.menu-ico{position:relative}
+.menu-ico::before,.menu-ico::after{content:"";position:absolute;left:0}
+.menu-ico::before{top:-6px}
+.menu-ico::after{top:6px}
+.site-header.open .menu-ico{background:transparent}
+.site-header.open .menu-ico::before{transform:translateY(6px) rotate(45deg)}
+.site-header.open .menu-ico::after{transform:translateY(-6px) rotate(-45deg)}
+
+@media (max-width:1040px){
+  .site-header{flex-wrap:wrap;gap:10px}
+  .menu-btn{display:inline-flex}
+  .site-nav{order:3;width:100%;display:none;flex-direction:column;align-items:stretch;gap:0;
+    margin-top:4px;padding-top:4px;border-top:1px solid rgba(17,24,39,.10)}
+  .site-header.open .site-nav{display:flex}
+  .site-nav a{padding:14px 2px;font-size:15.5px;border-bottom:1px solid rgba(17,24,39,.07)}
+  .site-nav a:last-child{border-bottom:0}
+  .hero{padding-top:148px;min-height:auto}
+  .page-hero{padding-top:140px;min-height:auto;padding-bottom:52px}
+  .legal{padding-top:148px}
+  .home-links{margin-top:-40px}
+}
+@media (max-width:560px){
+  .hero{padding-top:146px;padding-bottom:56px}
+  .page-hero{padding-top:136px;padding-bottom:44px}
+  .legal{padding-top:146px}
+  .hero h1{font-size:34px;margin:20px 0 18px}
+  .hero-copy{font-size:16px}
+  .page-hero h1{font-size:28px;margin:18px 0 16px}
+  .page-hero p{font-size:15.5px}
+  .eyebrow{font-size:10.5px;padding:8px 12px;letter-spacing:.08em;line-height:1.5}
+  .btn{width:100%;font-size:14px}
+  .hero-actions{gap:10px}
+  .brand{font-size:16px}
+  .brand .sub{font-size:11px}
+  .nav-cta{font-size:13px;padding:10px 14px}
+  .rec-item b{font-size:15.5px}
+  .form-card,.org-card{padding:26px 22px}
+  .contact-panel{padding:26px 22px}
+  .cta-band{padding:26px 22px}
+  .legal-box{padding:24px 20px}
+  .prog-row h3{font-size:16.5px;line-height:1.45}
+  .prog-row{padding:24px 20px;gap:8px}
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#/home">생각테라피교육연구소<span class="sub">생각을 행동으로 연결하는 마인드맵 교육</span></a>
+  <nav class="site-nav" id="site-nav">
+    <a href="#/about">연구소 소개</a>
+    <a href="#/organization">기관 교육</a>
+    <a href="#/personal">개인 과정</a>
+    <a href="#/certificate">전문가 자격과정</a>
+    <a href="#/cases">교육사례</a>
+    <a href="#/contact">문의</a>
+  </nav>
+  <a class="nav-cta" href="#/contact">교육 문의</a>
+  <button class="menu-btn" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="site-nav">
+    <span class="menu-ico" aria-hidden="true"></span>
+  </button>
+</header>
+
+<main id="top">
+<div class="page" id="page-home">
+
+  <section class="hero">
+    <div class="hero-in">
+      <div class="hero-text">
+        <p class="eyebrow">생각테라피교육연구소</p>
+        <h1>생각을 꺼내고, 연결하고,<br><span>행동으로 옮기는 힘</span></h1>
+        <p class="hero-copy">생각테라피교육연구소는 마인드맵으로 복잡한 생각과 경험을 한눈에 구조화하여, 학습·업무·진로·소통·묵상에서 다음 행동을 찾도록 돕습니다.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#/organization">기관 교육 알아보기</a>
+          <a class="btn ghost" href="#/personal">개인 과정 살펴보기</a>
+        </div>
+        <a class="hero-note" href="#/about">생각테라피란?</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="home-links">
+    <a class="feature-link" href="#/organization"><b>기관 교육</b><span>대상과 목적에 맞춘 맞춤 설계</span></a>
+    <a class="feature-link" href="#/personal"><b>개인 과정</b><span>1:1 맞춤교육과 묵상·실행력 과정</span></a>
+    <a class="feature-link" href="#/certificate"><b>전문가 자격과정</b><span>마인드맵교육전문가 2급·1급</span></a>
+    <a class="feature-link" href="#/cases"><b>교육사례</b><span>교육청·공공기관·학교 진행 사례</span></a>
+  </div>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="kicker">TWO WAYS</p>
+      <h2>기관도, 개인도 신청할 수 있습니다</h2>
+      <p>단체 교육을 의뢰하는 기관과 직접 배우려는 개인, 두 가지 방식으로 신청할 수 있습니다. 교육 대상은 유아부터 노년까지 전 세대입니다.</p>
+    </div>
+    <div class="org-duo">
+      <a class="org-card" href="#/organization">
+        <span>01 &nbsp;기관 교육</span>
+        <h3>기관이 단체 교육을<br>의뢰하는 경우</h3>
+        <p>기관의 교육 대상과 기대하는 변화에 맞춰 내용·사례·실습 결과물을 새로 구성합니다. 기존 프로그램을 그대로 반복하지 않습니다.</p>
+        <dl>
+          <div><dt>이런 곳에서 신청합니다</dt><dd>교육청 · 학교 · 대학 · 도서관 · 공공기관 · 청년기관 · 가족센터 · 교회</dd></div>
+          <div><dt>진행 방식</dt><dd>기관 일정에 맞춘 특강·직무연수·워크숍. 온라인과 오프라인 모두 가능합니다.</dd></div>
+          <div><dt>신청 방법</dt><dd>기관 교육 신청서를 보내주시면 목적을 확인한 뒤 과정을 제안해 드립니다.</dd></div>
+        </dl>
+        <span class="text-link">기관 교육 신청하기 →</span>
+      </a>
+      <a class="org-card" href="#/personal">
+        <span>02 &nbsp;개인 과정</span>
+        <h3>개인이 직접<br>배우고 싶은 경우</h3>
+        <p>마인드맵 경험과 배우려는 목적에 따라 필요한 과정과 실습 주제를 구성합니다. 처음 시작하는 분도 순서대로 따라올 수 있습니다.</p>
+        <dl>
+          <div><dt>이런 과정이 있습니다</dt><dd>마인드맵테라피 1:1 맞춤교육 · 월간 묵상 마인드맵 · 실행력 UP 워크숍과 챌린지</dd></div>
+          <div><dt>자격을 취득하려면</dt><dd>기본과정 → 마인드맵교육전문가 2급 심화과정 → 1급 코칭과정</dd></div>
+          <div><dt>신청 방법</dt><dd>개인 과정 신청서를 보내주시면 현재 수준을 확인한 뒤 과정과 일정을 안내드립니다.</dd></div>
+        </dl>
+        <span class="text-link">개인 과정 신청하기 →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="philosophy-section" id="philosophy">
+    <div class="philosophy-in">
+      <div>
+        <p class="kicker">WHAT IS 생각테라피</p>
+        <h2>생각을 펼치면,<br>삶이 움직입니다</h2>
+        <p>머릿속엔 생각이 가득한데 뭐가 문제인지 모르겠고, 다이어리는 꽉 찼는데 실행은 안 되고, 정리해봐도 결국 제자리인 느낌. 이건 생각이 너무 많은 것도, 없는 것도 아닙니다. 소중한 생각들이 머릿속에서 엉켜 길을 잃은 것뿐입니다.</p>
+        <p style="margin-top:14px">마인드맵을 5천 장 넘게 그리면서 한 가지를 분명히 경험했습니다. 생각을 펼쳐내면 엉킨 실타래가 하나씩 풀리고, 생각이 구조화되는 순간 방향이 생기고, 방향이 생기자 행동이 달라졌습니다.</p>
+        <div class="pull">생각을 정리하는 것만으로는 부족합니다.<br>생각이 ‘방향’을 만나야 비로소 삶이 움직입니다.</div>
+        <div class="cert-notice">생각테라피교육연구소의 ‘테라피’는 임상 치료가 아니라, 생각을 정리하고 행동으로 연결하는 교육·코칭 기반의 자기 이해 프로그램을 뜻합니다. 의학적 진단이나 심리 치료를 제공하지 않습니다.</div>
+        <div class="hero-actions"><a class="btn dark" href="#/about">생각테라피 더 알아보기</a></div>
+      </div>
+      <div class="shot"><img src="assets/img-751d8527ba.jpg" alt="참여자들이 노트에 각자의 마인드맵을 그리고 있는 책상 위 모습"></div>
+    </div>
+  </section>
+
+  <section class="section" id="generations">
+    <div class="section-head">
+      <p class="kicker">FOR EVERY AGE</p>
+      <h2>유아부터 노년까지,<br>대상에 맞춘<br class="br-m"> 맞춤식 커리큘럼</h2>
+      <p>생각이 엉키는 순간은 나이에 상관없이 누구에게나 옵니다. 그래서 각 세대의 언어와 눈높이로 함께합니다. 나이가 달라도, 출발점이 달라도, 꺼내고 → 정리하고 → 실행하는 흐름은 누구에게나 똑같이 필요하니까요.</p>
+    </div>
+    <div class="curri">
+      <article>
+        <span class="no">01</span>
+        <b>유아 · 어린이</b>
+        <p>생각을 말과 그림으로 꺼내고 분류하는 연습</p>
+      </article>
+      <article>
+        <span class="no">02</span>
+        <b>청소년</b>
+        <p>공부와 진로, 내 생각을 구조화하는 힘</p>
+      </article>
+      <article>
+        <span class="no">03</span>
+        <b>성인 · 직장인</b>
+        <p>업무와 삶을 설계하는 사고 시스템</p>
+      </article>
+      <article>
+        <span class="no">04</span>
+        <b>부모 · 교육자</b>
+        <p>아이의 생각을 이끄는 코칭 역량</p>
+      </article>
+      <article>
+        <span class="no">05</span>
+        <b>중장년 · 노년</b>
+        <p>삶을 정리하고 다음 챕터를 여는 힘</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="kicker">PROCESS</p>
+      <h2>생각은 네 단계를 거쳐<br class="br-m"> 행동이 됩니다</h2>
+    </div>
+    <div class="process-grid">
+      <article><span>STEP 01</span><b>꺼내기</b><p>머릿속을 맴도는 생각과 경험을 밖으로 꺼냅니다.</p></article>
+      <article><span>STEP 02</span><b>연결하기</b><p>흩어진 생각 사이의 관계와 반복되는 흐름을 살펴봅니다.</p></article>
+      <article><span>STEP 03</span><b>발견하기</b><p>문제의 핵심, 나의 강점, 가능한 선택지를 발견합니다.</p></article>
+      <article><span>STEP 04</span><b>행동하기</b><p>지금 시작할 수 있는 구체적인 행동을 정합니다.</p></article>
+    </div>
+  </section>
+
+  <section class="band" id="needs">
+    <div class="band-in">
+      <div class="section-head">
+        <p class="kicker">FIND BY NEED</p>
+        <h2>지금 어떤 변화가 필요하신가요?</h2>
+        <p>프로그램 이름을 몰라도 괜찮습니다. 필요한 변화와 가장 가까운 항목을 선택하면, 해당 교육으로 바로 이동합니다.</p>
+      </div>
+      <div class="card-grid">
+        <a class="info-card" href="#/organization" data-scroll="child">
+          <h3>읽고 배운 내용을<br class="br-m"> 자기 생각으로 정리하고 싶어요</h3>
+          <p>독서·학습 마인드맵으로 핵심 내용을 구조화하고 자기 생각을 연결합니다.</p>
+          <b>유아·초등·청소년 교육 →</b>
+        </a>
+        <a class="info-card" href="#/organization" data-scroll="teacher">
+          <h3>복잡한 업무와 문제를 한눈에 정리하고 싶어요</h3>
+          <p>업무의 우선순위와 문제의 원인, 해결 방향을 한 장에 정리합니다.</p>
+          <b>교육자 →</b>
+        </a>
+        <a class="info-card" href="#/organization" data-scroll="youth">
+          <h3>나를 이해하고 다음 진로 행동을<br class="br-m"> 찾고 싶어요</h3>
+          <p>경험과 강점을 꺼내 진로 방향과 지금 해볼 행동으로 연결합니다.</p>
+          <b>대학생·청년 →</b>
+        </a>
+        <a class="info-card" href="#/organization" data-scroll="family">
+          <h3>서로의 생각을 이해하고 더 잘 소통하고 싶어요</h3>
+          <p>각자의 생각과 감정을 시각화하여 차이를 이해하고 대화의 실마리를 찾습니다.</p>
+          <b>부모 · 가족 →</b>
+        </a>
+        <a class="info-card" href="#/organization" data-scroll="church">
+          <h3>말씀을 깊이 읽고 오래 기억하고 싶어요</h3>
+          <p>말씀의 흐름과 마음에 남은 내용을 마인드맵으로 정리하고 자신의 적용을 발견합니다.</p>
+          <b>교회·신앙공동체 →</b>
+        </a>
+        <a class="info-card" href="#/certificate">
+          <h3>마인드맵을 배워<br class="br-m"> 교육에 활용하고 싶어요</h3>
+          <p>기본과정부터 강의 기획과 시연까지 단계별 전문가 과정으로 배웁니다.</p>
+          <b>전문가 자격과정 →</b>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section split rev">
+    <div class="shot"><img src="assets/img-90fcc48c34.jpg" alt="책상 위에 참여자들이 완성한 마인드맵 노트가 여러 권 펼쳐져 있다"></div>
+    <div>
+      <p class="kicker">OUTCOME</p>
+      <h2>강의를 들은 뒤,<br>손에 잡히는 결과물이<br class="br-m"> 남습니다</h2>
+      <p style="margin-bottom:24px">참여자는 설명을 듣는 데서 끝나지 않고 자신의 주제를 직접 마인드맵으로 정리합니다.</p>
+      <div class="outcome-grid">
+        <div><b>독서 마인드맵</b><span>책의 핵심과 자기 생각을 연결</span></div>
+        <div><b>학습 마인드맵</b><span>배운 개념을 한눈에 구조화</span></div>
+        <div><b>업무 구조도</b><span>업무의 우선순위와 흐름 정리</span></div>
+        <div><b>문제해결 마인드맵</b><span>원인과 해결 방향 찾기</span></div>
+        <div><b>진로 로드맵</b><span>경험과 강점을 행동계획으로</span></div>
+        <div><b>소통 마인드맵</b><span>서로의 생각과 감정 이해</span></div>
+        <div><b>묵상 마인드맵</b><span>말씀의 흐름과 개인의 적용</span></div>
+        <div><b>강의 커리큘럼</b><span>직접 진행할 수 있는 교육안</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="cases">
+    <div class="band-in">
+      <div class="section-head">
+        <p class="kicker">EDUCATION RECORD</p>
+        <h2>이런 문제를<br>함께 풀었습니다</h2>
+        <p>기관마다 처한 상황은 달랐지만, 생각을 꺼내 구조화하고 다음 행동을 찾는 흐름은 같았습니다.</p>
+        <p>유치원 교사연수부터 교육청 직무연수, 대학 특강, 공공기관 직원교육, 청소년과 가족, 신앙공동체까지. 대상이 달라도 생각을 꺼내고 연결해 다음 행동을 찾는 흐름은 같습니다.</p>
+      </div>
+      <div class="gal">
+        <figure><img src="assets/img-1215134228.jpg" alt="교육지원청 강당에서 마인드맵 실습을 진행하는 교육 현장"></figure>
+        <figure><img src="assets/img-42b5d3bfd0.jpg" alt="교육연수원 대강의실에서 참여자들이 마인드맵을 작성하는 모습"></figure>
+        <figure><img src="assets/img-37718c73fa.jpg" alt="가족센터에서 마인드맵을 활용한 소통 교육을 진행하는 모습"></figure>
+        <figure><img src="assets/img-3f6e38778a.jpg" alt="참여자들이 노트에 마인드맵을 그리고 있는 실습 장면"></figure>
+      </div>
+      <div class="card-grid">
+        <article class="case-card"><h3>“업무가 쌓이는데 정리가 안 됩니다”</h3><p>업무정리 스킬 마인드맵 · 일잘러가 되기 위한 생각정리기술</p><div class="pill-row"><b>서울시교육청</b></div></article>
+        <article class="case-card"><h3>“학교도서관 프로그램을 새로 설계해야 합니다”</h3><p>학교도서관 활용 마인드맵 · 사서를 위한 독서 마인드맵</p><div class="pill-row"><b>남양주교육청</b><b>양평교육청</b></div></article>
+        <article class="case-card"><h3>“문제를 여러 관점에서 보게 하고 싶습니다”</h3><p>마인드맵을 통한 문제해결과 사고확장</p><div class="pill-row"><b>전북교육청</b></div></article>
+        <article class="case-card"><h3>“배운 것이 기억에 남지 않고, 진로는 막연합니다”</h3><p>기억을 촉진하는 학습 맵핑전략 · AI와 마인드맵으로 그리는 진로 로드맵</p><div class="pill-row"><b>남부대학교</b><b>대구가톨릭대학교</b></div></article>
+        <article class="case-card"><h3>“청년들이 스스로를 돌볼 수 있게 돕고 싶습니다”</h3><p>청년 스트레스 관리 마인드맵테라피 · 소중한 나를 지키는 도구</p><div class="pill-row"><b>인천동구청년센터</b><b>중앙청년지원센터</b><b>평창군청년지원센터</b></div></article>
+        <article class="case-card"><h3>“서로 다르게 생각하는 지점을 보고 싶습니다”</h3><p>소통역량교육 마인드맵테라피 · 가족과의 거리를 잇는 소통 마인드맵</p><div class="pill-row"><b>충북문화재단</b><b>대구달성군가족센터</b></div></article>
+      </div>
+      <div class="info-box" style="max-width:none">
+        <b>이런 현장에서 함께했습니다</b>
+        <p>교육청과 학교, 대학, 유치원, 청년기관, 가족센터, 문화재단, 교육단체, 교회, 그리고 필리핀 현지학교까지. 대상과 목적은 달랐지만 생각을 꺼내 다음 행동을 찾는 흐름은 같았습니다. 온라인 실시간 교육과 UDEMY 온라인 강의도 해마다 이어오고 있습니다.</p>
+      </div>
+
+      <div class="hero-actions"><a class="btn line" href="#/cases">전체 교육사례 보기</a></div>
+    </div>
+  </section>
+
+
+  <section class="band">
+    <div class="band-in">
+      <div class="section-head">
+        <p class="kicker">VOICES</p>
+        <h2>참여자들이 남긴 말</h2>
+        <p>교육 후 진행한 만족도 설문에서 참여자들이 직접 적어주신 응답입니다.</p>
+      </div>
+
+      <div class="stat-row">
+        <div class="stat-box">
+          <b>4.6 <small style="font-size:18px;color:var(--muted);font-weight:700">/ 5</small></b>
+          <span>연수 전반 만족도<br>양평교육청 학교도서관 사서 직무연수 · 응답 15명</span>
+        </div>
+        <div class="stat-box">
+          <b>4.6 <small style="font-size:18px;color:var(--muted);font-weight:700">/ 5</small></b>
+          <span>같은 업무를 하는 다른 선생님께 추천하겠다<br>남양주·양평교육청 사서 직무연수 · 응답 36명</span>
+        </div>
+      </div>
+
+      <div class="voices">
+        <div class="voice">
+          <blockquote>“구조적인 업무가 주인 사서교사에게 좀 더 다양한 아이디어를 주셔서 좋았어요”</blockquote>
+          <cite>남양주교육청 학교도서관 사서 직무연수 참여자</cite>
+        </div>
+        <div class="voice">
+          <blockquote>“나의 업무 장점 강화와 약점 분석에 탁월”</blockquote>
+          <cite>양평교육청 학교도서관 사서 직무연수 참여자</cite>
+        </div>
+        <div class="voice">
+          <blockquote>“업무 시작 전에 큰 그림 그리기가 될 것 같아 유용하고, 구성원들과 공유도 가능하니 더 좋네요”</blockquote>
+          <cite>서울시교육청 업무정리 마인드맵 참여자</cite>
+        </div>
+        <div class="voice">
+          <blockquote>“지금까지 생각해보지 못한 것들이 떠올라 흥미로웠다. 그것에 대답하는 나를 보며 지금까지의 나를 되돌아볼 수 있어 좋았다”</blockquote>
+          <cite>청소년 마인드맵 수업 참여자</cite>
+        </div>
+        <div class="voice">
+          <blockquote>“말씀 묵상이 가장 어렵다고 생각했는데, 마인드맵을 그리니까 즐겁게 묵상할 수 있었어요”</blockquote>
+          <cite>동일교회 묵상 마인드맵 참여자</cite>
+        </div>
+        <div class="voice">
+          <blockquote>“한눈에 보이도록 남는 결과물, 그때의 내 생각이 뿌듯함”</blockquote>
+          <cite>인천마을교육공동체(아라누림) 마인드맵테라피 참여자</cite>
+        </div>
+      </div>
+      </div>
+
+      <p class="small" style="margin-top:18px;font-size:13.5px;color:var(--faint,#98a2b3);line-height:1.7">설문 응답을 참여자 동의 아래 익명으로 인용했습니다.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="kicker">BLOG</p>
+      <h2>교육 현장의 기록</h2>
+      <p>강의 후기와 마인드맵 활용법을 블로그에 기록하고 있습니다.</p>
+    </div>
+    <div class="posts">
+      <a class="post" href="https://blog.naver.com/gloshim/224384568615" target="_blank" rel="noopener">
+        <span class="date">2026.08.20</span>
+        <span class="title">사서·사서교사 업무역량을 높이는 마인드맵 직무연수｜양평교육지원청 강의 후기</span>
+        <span class="more">블로그에서 읽기 →</span>
+      </a>
+      <a class="post" href="https://blog.naver.com/gloshim/224336429774" target="_blank" rel="noopener">
+        <span class="date">2026.07.04</span>
+        <span class="title">매일성경, 성경읽기, 성경 마인드맵 [고린도전서]</span>
+        <span class="more">블로그에서 읽기 →</span>
+      </a>
+      <a class="post" href="https://blog.naver.com/gloshim/224300533513" target="_blank" rel="noopener">
+        <span class="date">2026.05.30</span>
+        <span class="title">성경 묵상 마인드맵 하하 프로젝트 시즌2｜단거리 과정 모집</span>
+        <span class="more">블로그에서 읽기 →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="cta-band">
+      <div>
+        <p class="kicker" style="color:#fbbf24">CONTACT</p>
+        <h3>어떤 교육이 필요한지부터<br>함께 정리해 드립니다</h3>
+        <p>교육 대상과 기대하는 변화를 알려주세요. 목적에 맞는 내용과 진행 방식을 제안해 드립니다. 카카오톡 오픈채팅으로 가볍게 물어보셔도 됩니다.</p>
+      </div>
+      <div class="hero-actions" style="margin:0;flex-direction:column">
+        <a class="btn primary" href="#/contact">교육 문의하기</a>
+        <a class="btn kakao" href="https://open.kakao.com/o/szYGCqTe" target="_blank" rel="noopener">카카오톡 오픈채팅</a>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="page" id="page-about">
+  <section class="page-hero ph-about">
+    <div class="page-hero-in">
+      <p class="eyebrow">ABOUT US</p>
+      <h1>생각이 보이면,<br>다음 행동도 보이기 시작합니다</h1>
+      <p>생각테라피교육연구소는 마인드맵을 통해 사람의 생각과 경험을 한눈에 보이게 하고, 발견한 내용을 실제 행동으로 연결하는 교육을 연구하고 진행합니다.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="kicker">WHY</p>
+      <h2>왜 생각테라피인가요?</h2>
+    </div>
+    <div class="split-copy">
+      <p>머릿속에서 같은 생각이 반복될 때는 무엇을 더 생각해야 하는지조차 흐려집니다. 이럴 때 필요한 것은 생각을 억지로 멈추는 일이 아니라, 생각을 밖으로 꺼내 관계를 살펴보는 일입니다.</p>
+      <p>마인드맵은 흩어진 생각을 한눈에 보게 합니다. 무엇이 중요하고, 무엇이 연결되어 있으며, 지금 무엇부터 해야 하는지를 스스로 발견하게 합니다. 생각테라피교육연구소는 이 과정을 교육으로 설계합니다.</p>
+    </div>
+  </section>
+
+  <section class="philosophy-section" id="definition">
+    <div class="philosophy-in">
+      <div>
+        <p class="kicker">DEFINITION</p>
+        <h2>생각테라피란?</h2>
+        <p>생각테라피는 쳇바퀴처럼 반복되는 생각을 마인드맵으로 꺼내고 연결하여, 행동의 실마리를 발견하고 실제 행동으로 옮기도록 돕는 생각정리 교육입니다.</p>
+        <div class="pull">꺼내기 → 연결하기 → 발견하기 → 행동하기</div>
+        <div class="cert-notice">생각테라피교육연구소의 ‘테라피’는 임상 치료가 아니라, 생각을 정리하고 행동으로 연결하는 교육·코칭 기반의 자기 이해 프로그램을 뜻합니다. 의학적 진단이나 심리 치료를 제공하지 않습니다.</div>
+      </div>
+      <div class="shot"><img src="assets/img-90fcc48c34.jpg" alt="책상 위에 참여자들이 완성한 마인드맵 노트가 여러 권 펼쳐져 있다"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="kicker">METHOD</p>
+      <h2>왜 마인드맵으로 정리하면<br>행동이 달라질까요</h2>
+    </div>
+    <div class="split-copy">
+      <p>사람의 생각은 대개 상황과 감정, 행동이 뒤엉킨 채 머릿속에 머무릅니다. 그래서 아무리 오래 생각해도 무엇이 문제인지 잘 보이지 않습니다.</p>
+      <p>생각테라피는 이 뒤엉킨 흐름을 <b>어떤 상황에 놓여 있는지, 그때 어떤 생각이 반복되는지, 어떤 감정이 올라오는지, 그 생각이 어떤 행동으로 이어지는지</b>의 순서로 나누어 마인드맵 위에 펼칩니다. 심리학에서 오래 다뤄온 이 네 가지 구분을, 한 장에 보이는 시각적 구조로 바꾼 것입니다.</p>
+      <p>구조가 보이면 질문이 생기고, 질문이 생기면 선택지가 달라집니다. 생각을 억지로 바꾸려 하지 않아도, 보이기 시작하면 다음 행동이 달라집니다.</p>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="band-in">
+      <div class="section-head">
+        <p class="kicker">PRINCIPLES</p>
+        <h2>교육 원칙</h2>
+      </div>
+      <div class="process-grid">
+        <article><span>PRINCIPLE 01</span><b>참여자의 언어에서 시작합니다</b><p>정해진 답을 전달하기보다 참여자가 가진 경험과 생각을 꺼낼 수 있도록 질문하고 안내합니다.</p></article>
+        <article><span>PRINCIPLE 02</span><b>한눈에 보이게 만듭니다</b><p>긴 설명을 듣고 끝내지 않고, 핵심과 관계가 보이는 한 장의 마인드맵으로 정리합니다.</p></article>
+        <article><span>PRINCIPLE 03</span><b>결과물을 남깁니다</b><p>교육 주제에 따라 독서맵, 업무 구조도, 진로 로드맵, 소통맵, 묵상맵 등의 결과물을 완성합니다.</p></article>
+        <article><span>PRINCIPLE 04</span><b>작은 행동으로 연결합니다</b><p>발견한 내용을 생각으로만 남겨두지 않고, 지금 시작할 수 있는 행동을 정합니다.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section split rev">
+    <div class="shot portrait"><img src="assets/img-d5db185c3c.jpg" alt="생각테라피교육연구소 대표 김연정"></div>
+    <div>
+      <p class="kicker">DIRECTOR</p>
+      <h2>김연정 대표</h2>
+      <p style="margin-bottom:14px">김연정 대표는 학교 현장과 다양한 교육기관에서 교사·사서·학생·청년·부모·신앙공동체를 만나왔습니다. 마인드맵을 단순한 필기법이 아니라 자신의 생각을 발견하고 행동으로 연결하는 교육도구로 가르칩니다.</p>
+      <p style="margin-bottom:22px">참여자가 어렵지 않게 따라오면서도 자신의 주제를 깊이 살펴볼 수 있도록, 쉽고 촘촘한 설명과 실습 중심의 교육을 설계합니다.</p>
+      <ul class="trust-list">
+        <li>『나는 마인드맵퍼가 되기로 했다』 공저</li>
+        <li>마인드맵교육전문가 자격관리·발급기관 대표</li>
+        <li>교육청·학교·대학·공공기관·청년기관·가족센터·교회 교육 진행</li>
+      </ul>
+      <div class="hero-actions"><a class="btn line" href="#/contact">강사 프로필 자료 요청하기</a></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="band-in">
+      <div class="section-head">
+        <p class="kicker">TOOLS</p>
+        <h2>도구는 교육 목적에 맞게 선택합니다</h2>
+        <p>교육 목적에 도움이 되는 경우에는 디지털 마인드맵이나 AI 도구를 함께 활용합니다. AI가 참여자의 답을 대신하는 것이 아니라, 경험과 생각을 더 잘 꺼내고 질문을 점검하는 보조도구로 사용합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="cta-band">
+      <div>
+        <p class="kicker" style="color:#fbbf24">NEXT STEP</p>
+        <h3>대상에게 맞는 생각정리 교육이 필요하신가요?</h3>
+        <p>교육 대상과 기대하는 변화를 알려주세요. 목적에 맞는 내용과 진행 방식을 제안해 드립니다.</p>
+      </div>
+      <div class="hero-actions" style="margin:0">
+        <a class="btn primary" href="#/organization">기관 교육 알아보기</a>
+        <a class="btn light" href="#/contact">교육 문의하기</a>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="page" id="page-organization">
+  <section class="page-hero ph-org">
+    <div class="page-hero-in">
+      <p class="eyebrow">ORGANIZATION PROGRAM</p>
+      <h1>대상과 목적에 맞는<br>마인드맵 교육을 설계합니다</h1>
+      <p>같은 주제라도 교사와 학생, 청년과 부모에게 필요한 질문과 활동은 다릅니다. 기관의 교육 대상과 기대하는 변화에 맞춰 내용·사례·실습 결과물을 구성합니다.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#/contact">기관 교육 문의하기</a>
+        <a class="btn ghost" href="#/contact">교육 제안서 받아보기</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="kicker">SELECT TARGET</p>
+      <h2>어떤 대상을 위한 교육인가요?</h2>
+      <p>대상을 선택하면 해당 프로그램으로 바로 이동합니다.</p>
+    </div>
+    <div class="tabs">
+      <a href="#/organization" data-scroll="child">유아 · 어린이 · 청소년</a>
+      <a href="#/organization" data-scroll="youth">대학생 · 청년</a>
+      <a href="#/organization" data-scroll="public">성인 · 직장인</a>
+      <a href="#/organization" data-scroll="family">부모 · 가족</a>
+      <a href="#/organization" data-scroll="senior">중장년 · 노년</a>
+      <a href="#/organization" data-scroll="teacher">교육자</a>
+      <a href="#/organization" data-scroll="church">교회 · 신앙공동체</a>
+    </div>
+    <div class="subsec" id="child">
+      <p class="kicker">유아 · 어린이 · 청소년</p>
+      <h2>읽고 배운 것을 자기 언어로 설명하는 힘</h2>
+      <p class="lede-w">읽고 외우는 데서 끝나지 않고, 배운 내용과 자기 생각을 정리하여 설명하는 힘을 기릅니다. 학년과 인원, 교육시간에 따라 한 주제를 깊게 다루거나 여러 주제를 연결해 구성할 수 있습니다.</p>
+      <div class="prog">
+        <div class="prog-row"><span>01</span><div><h3>독서 마인드맵</h3><p>이야기의 핵심을 찾고 읽은 내용과 자기 생각을 연결합니다.</p></div></div>
+        <div class="prog-row"><span>02</span><div><h3>학습 마인드맵</h3><p>배운 개념을 구조화하여 이해하고 기억합니다.</p></div></div>
+        <div class="prog-row"><span>03</span><div><h3>생각·감정 표현 마인드맵</h3><p>마음속 생각과 감정을 시각화하고 자기 언어로 표현합니다.</p></div></div>
+        <div class="prog-row"><span>04</span><div><h3>진로 탐색 마인드맵</h3><p>관심사와 강점을 발견하고 미래의 가능성을 구체화합니다.</p></div></div>
+      </div>
+      <div class="outs-line"><span>완성하는 결과물</span><div class="pill-row"><b>독서 마인드맵</b><b>학습 마인드맵</b><b>생각·감정 표현맵</b><b>진로 탐색맵</b></div></div>
+      <div class="hero-actions"><a class="btn line" href="#/contact">이 대상 교육 문의하기</a></div>
+    </div>
+    <div class="subsec" id="youth">
+      <p class="kicker">대학생 · 청년</p>
+      <h2>경험에서 진로와 다음 행동을 발견하는 교육</h2>
+      <p class="lede-w">막연한 진로 고민에 정답을 제시하기보다, 이미 해온 경험과 선택을 꺼내 자신에게 맞는 방향을 점검하도록 돕습니다.</p>
+      <div class="prog">
+        <div class="prog-row"><span>01</span><div><h3>마인드맵으로 그리는 나의 진로 로드맵</h3><p>경험과 강점을 진로 방향과 구체적인 행동계획으로 연결합니다.</p></div></div>
+        <div class="prog-row"><span>02</span><div><h3>청년 스트레스 관리 마인드맵테라피</h3><p>복잡한 생각과 감정을 정리하고 스스로 조절할 실마리를 찾습니다.</p></div></div>
+        <div class="prog-row"><span>03</span><div><h3>개인역량 강화를 위한 마인드맵테라피</h3><p>자신이 가진 자원과 개선할 지점을 발견하고 성장계획을 정리합니다.</p></div></div>
+        <div class="prog-row"><span>04</span><div><h3>실행력을 높이는 계획 마인드맵</h3><p>목표를 구체화하고, 미뤄지는 이유와 시작할 행동을 함께 정리합니다.</p></div></div>
+      </div>
+      <div class="outs-line"><span>완성하는 결과물</span><div class="pill-row"><b>경험·강점 마인드맵</b><b>진로 로드맵</b><b>스트레스 요인과 대처자원맵</b><b>한 달 행동계획</b></div></div>
+      <div class="hero-actions"><a class="btn line" href="#/contact">이 대상 교육 문의하기</a></div>
+    </div>
+    <div class="subsec" id="public">
+      <p class="kicker">성인 · 직장인</p>
+      <h2>업무와 삶을 설계하는 사고 시스템</h2>
+      <p class="lede-w">공공기관·기업·단체에서 일하는 성인을 위한 과정입니다. 참여자의 생각을 한눈에 보이게 하여 문제를 여러 관점에서 살펴보고, 서로의 차이를 이해하며 실행 방향을 정합니다.</p>
+      <div class="prog">
+        <div class="prog-row"><span>01</span><div><h3>문제해결과 사고확장 마인드맵</h3><p>문제의 원인과 관점을 나누어 보고 실행 가능한 해결 방향을 찾습니다.</p></div></div>
+        <div class="prog-row"><span>02</span><div><h3>소통역량교육 마인드맵테라피</h3><p>서로 다르게 생각하는 지점을 시각화하여 대화의 출발점을 만듭니다.</p></div></div>
+        <div class="prog-row"><span>03</span><div><h3>업무정리와 우선순위 설정</h3><p>흩어진 업무와 정보를 구분하고 지금 처리할 순서를 정합니다.</p></div></div>
+        <div class="prog-row"><span>04</span><div><h3>회고와 계획을 연결하는 마인드맵</h3><p>지나온 기간을 정리하고 다음 기간의 계획으로 연결합니다.</p></div></div>
+      </div>
+      <div class="outs-line"><span>완성하는 결과물</span><div class="pill-row"><b>문제해결 마인드맵</b><b>소통 마인드맵</b><b>업무 구조도와 우선순위맵</b></div></div>
+      <div class="hero-actions"><a class="btn line" href="#/contact">이 대상 교육 문의하기</a></div>
+    </div>
+    <div class="subsec" id="family">
+      <p class="kicker">부모 · 가족</p>
+      <h2>서로의 생각과 감정을 이해하는 가족 소통 교육</h2>
+      <p class="lede-w">가족센터·학부모교육 등에서 부모와 자녀가 함께 참여합니다. 누가 맞는지를 정하기보다 가족이 서로 다르게 생각하는 지점을 보고, 필요한 대화를 시작하도록 돕습니다.</p>
+      <div class="prog">
+        <div class="prog-row"><span>01</span><div><h3>가족과의 거리를 잇는 소통 마인드맵</h3><p>가족이 각자 생각하는 것을 꺼내 놓고 차이를 함께 살펴봅니다.</p></div></div>
+        <div class="prog-row"><span>02</span><div><h3>부모와 자녀의 생각을 연결하는 마인드맵</h3><p>서로에게 바라는 것과 오해하고 있던 지점을 한 장에서 확인합니다.</p></div></div>
+        <div class="prog-row"><span>03</span><div><h3>감정을 이해하고 표현하는 마인드맵</h3><p>말로 설명하기 어려운 감정을 시각화하여 자기 언어로 표현합니다.</p></div></div>
+      </div>
+      <div class="outs-line"><span>완성하는 결과물</span><div class="pill-row"><b>가족 소통 마인드맵</b><b>감정 표현 마인드맵</b></div></div>
+      <div class="hero-actions"><a class="btn line" href="#/contact">이 대상 교육 문의하기</a></div>
+    </div>
+    <div class="subsec" id="senior">
+      <p class="kicker">중장년 · 노년</p>
+      <h2>삶을 정리하고<br class="br-m"> 다음 챕터를 여는 힘</h2>
+      <p class="lede-w">지금까지 살아온 시간을 한 장에 정리하고, 앞으로의 방향을 스스로 설계하도록 돕습니다. 기억을 꺼내 쓰는 활동이라 처음 그리는 분도 부담 없이 따라올 수 있습니다.</p>
+      <div class="prog">
+        <div class="prog-row"><span>01</span><div><h3>인생 2막 설계 마인드맵</h3><p>해온 일과 하고 싶은 일을 정리해 다음 챕터의 방향을 정합니다.</p></div></div>
+        <div class="prog-row"><span>02</span><div><h3>나의 삶을 정리하는 인생 마인드맵</h3><p>살아온 시간을 시기별로 꺼내 한 장의 지도로 남깁니다.</p></div></div>
+        <div class="prog-row"><span>03</span><div><h3>일상과 관계를 정리하는 마인드맵</h3><p>하루의 리듬과 주변 관계를 정리하며 지금 필요한 것을 찾습니다.</p></div></div>
+      </div>
+      <div class="outs-line"><span>완성하는 결과물</span><div class="pill-row"><b>인생 2막 로드맵</b><b>나의 인생 마인드맵</b><b>일상·관계 정리맵</b></div></div>
+      <div class="hero-actions"><a class="btn line" href="#/contact">이 대상 교육 문의하기</a></div>
+    </div>
+    <div class="subsec" id="teacher">
+      <p class="kicker">교육자</p>
+      <h2>수업과 업무에 바로 적용하는 생각정리 역량</h2>
+      <p class="lede-w">교사, 사서·사서교사, 유치원 교사, 교육공무원 등 가르치는 자리에 계신 분들을 위한 과정입니다. 복잡한 업무를 구조화하고, 독서·학습 프로그램을 설계하며, 학습자의 생각을 이끌어내는 마인드맵 활용법을 익힙니다.</p>
+      <div class="prog">
+        <div class="prog-row"><span>01</span><div><h3>사서·사서교사 업무역량을 높이는 마인드맵 직무연수</h3><p>업무와 도서관 프로그램을 한 장에 구조화합니다.</p></div></div>
+        <div class="prog-row"><span>02</span><div><h3>업무 효율을 높이는 생각정리 마인드맵</h3><p>해야 할 일, 정보, 우선순위를 구분하고 실행 순서를 정합니다.</p></div></div>
+        <div class="prog-row"><span>03</span><div><h3>질문과 마인드맵으로 키우는 생각의 힘</h3><p>학습자의 생각을 꺼내고 연결하는 질문과 마인드맵 활동을 익힙니다.</p></div></div>
+        <div class="prog-row"><span>04</span><div><h3>문제 해결과 사고 확장을 돕는 마인드맵</h3><p>문제의 원인과 관점을 나누어 보고 가능한 해결 방향을 찾습니다.</p></div></div>
+      </div>
+      <div class="outs-line"><span>완성하는 결과물</span><div class="pill-row"><b>업무 구조도</b><b>도서관 프로그램 기획맵</b><b>수업 아이디어맵</b><b>문제해결 마인드맵</b></div></div>
+      <div class="hero-actions"><a class="btn line" href="#/contact">이 대상 교육 문의하기</a></div>
+    </div>
+    <div class="subsec" id="church">
+      <p class="kicker">교회 · 신앙공동체</p>
+      <h2>말씀을 읽고 나누는<br class="br-m"> 묵상 마인드맵</h2>
+      <p class="lede-w">본문의 흐름과 마음에 남은 내용을 마인드맵으로 정리하여, 개인의 묵상과 공동체의 나눔을 돕습니다.</p>
+      <div class="prog">
+        <div class="prog-row"><span>01</span><div><h3>말씀이 기억에 남는 묵상 마인드맵</h3><p>읽은 본문의 흐름과 마음에 남은 내용을 한 장에 정리합니다.</p></div></div>
+        <div class="prog-row"><span>02</span><div><h3>성경 한 편을 한눈에 보는 마인드맵</h3><p>한 권 또는 한 편의 전체 구조를 구조화하여 흐름을 파악합니다.</p></div></div>
+        <div class="prog-row"><span>03</span><div><h3>공동체 나눔을 위한 묵상 마인드맵</h3><p>개인의 묵상을 함께 나눌 수 있는 형태로 정리합니다.</p></div></div>
+      </div>
+      <div class="outs-line"><span>완성하는 결과물</span><div class="pill-row"><b>묵상 마인드맵</b><b>공동체 나눔 기록</b></div></div>
+      <div class="cert-notice" style="margin-top:18px">본 과정은 신학적 해석을 가르치는 과정이 아니라, 말씀을 읽고 정리하고 개인의 적용을 발견하도록 돕는 마인드맵 교육입니다.</div>
+      <div class="hero-actions"><a class="btn line" href="#/contact">이 대상 교육 문의하기</a></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="band-in">
+      <div class="section-head">
+        <p class="kicker">PROCESS</p>
+        <h2>문의부터 교육까지 이렇게 진행됩니다</h2>
+      </div>
+      <div class="process-grid five">
+        <article><span>STEP 01</span><b>문의 접수</b><p>기관, 교육 대상, 인원, 희망 일정과 필요한 주제를 알려주세요.</p></article>
+        <article><span>STEP 02</span><b>교육 목적 확인</b><p>참여자에게 필요한 변화와 기관이 기대하는 결과를 확인합니다.</p></article>
+        <article><span>STEP 03</span><b>과정 설계</b><p>교육시간에 맞춰 설명, 사례, 실습과 결과물을 구성합니다.</p></article>
+        <article><span>STEP 04</span><b>일정 확정</b><p>진행 방식, 장소, 준비물과 세부 일정을 협의합니다.</p></article>
+        <article><span>STEP 05</span><b>교육 진행</b><p>참여자가 자신의 주제로 직접 결과물을 완성하도록 안내합니다.</p></article>
+      </div>
+      <p style="margin-top:22px">단체 교육은 5명 이상일 때 개설하며 기본 교육시간은 120분입니다. 교육일 기준 한 달 전에 문의해 주시면 충분히 준비할 수 있습니다. 온라인·오프라인 모두 가능하고, 오프라인 교육 지역과 출장비는 이메일로 협의합니다.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="kicker">DOCUMENTS</p>
+      <h2>내부 검토에 필요한 자료를 보내드립니다</h2>
+      <p>교육 승인과 품의를 위해 필요한 자료는 기관에서 요청하시면 이메일로 보내드립니다. 문의하실 때 필요한 자료를 함께 알려주세요.</p>
+    </div>
+    <ul class="trust-list">
+      <li>강사 프로필</li>
+      <li>대상별 교육 제안서와 커리큘럼 예시</li>
+      <li>교육 진행 사진 (사용 동의가 확보된 자료에 한함)</li>
+    </ul>
+    <div class="hero-actions"><a class="btn primary" href="#/contact">자료 요청하기</a></div>
+  </section>
+
+  <section class="band">
+    <div class="band-in">
+      <div class="section-head">
+        <p class="kicker">FAQ</p>
+        <h2>자주 묻는 질문</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>최소 인원과 최대 인원은 어떻게 되나요?</summary>
+          <div class="a">단체 교육은 5명 이상일 때 개설합니다. 인원 상한은 실습 여건과 장소에 따라 협의합니다.</div>
+        </details>
+        <details>
+          <summary>교육시간은 보통 어떻게 구성되나요?</summary>
+          <div class="a">기본 교육시간은 120분입니다. 기관의 일정과 교육 목적에 따라 시간을 늘리거나 여러 회차로 나누어 구성할 수 있습니다.</div>
+        </details>
+        <details>
+          <summary>언제까지 문의드리면 될까요?</summary>
+          <div class="a">교육일 기준 한 달 전에 문의해 주시면 대상과 목적에 맞게 설계할 시간이 충분합니다. 일정이 촉박한 경우에도 가능 여부를 확인해 드립니다.</div>
+        </details>
+        <details>
+          <summary>손으로 그리나요, 디지털 도구를 쓰나요?</summary>
+          <div class="a">둘 다 가능합니다. 종이와 펜으로 그려도 되고, 디지털 마인드맵 도구를 활용해도 됩니다. 참여자의 환경과 교육 목적에 맞춰 안내합니다.</div>
+        </details>
+        <details>
+          <summary>온라인 교육은 어떤 도구로 진행하나요?</summary>
+          <div class="a">Zoom으로 진행합니다. 참여자가 각자의 주제를 직접 정리할 수 있도록 온라인에서도 실습 중심으로 운영합니다.</div>
+        </details>
+        <details>
+          <summary>참여자와 기관이 준비할 것이 있나요?</summary>
+          <div class="a">참여자는 마인드맵을 그릴 무지 노트(A5 또는 A4 크기를 권합니다)와 검정펜, 색연필을 준비해 주세요. 기관에서는 화면을 띄울 수 있는 빔프로젝터나 모니터, 필기가 가능한 책상 배치를 부탁드립니다.</div>
+        </details>
+        <details>
+          <summary>교육자료와 실습지는 제공되나요?</summary>
+          <div class="a">네. 교육자료와 실습지를 제공합니다. 교육 대상과 주제에 맞춰 구성해 미리 보내드립니다.</div>
+        </details>
+        <details>
+          <summary>오프라인 교육 가능 지역과 출장비는 어떻게 되나요?</summary>
+          <div class="a">전국 어디든 협의 가능합니다. 지역과 일정, 장소를 확인한 뒤 출장비를 이메일로 협의합니다.</div>
+        </details>
+        <details>
+          <summary>강사 프로필과 교육 제안서를 받을 수 있나요?</summary>
+          <div class="a">네. 문의하실 때 필요한 자료를 알려주시면 확인 후 이메일로 보내드립니다.</div>
+        </details>
+        <details>
+          <summary>교육 사진 촬영이나 결과물 공유가 가능한가요?</summary>
+          <div class="a">참여자와 기관의 동의를 전제로 사전에 협의합니다. 동의 없이 촬영하거나 공개하지 않습니다.</div>
+        </details>
+        <details>
+          <summary>온라인으로도 진행할 수 있나요?</summary>
+          <div class="a">가능합니다. 참여자가 각자의 주제를 직접 정리할 수 있도록 온라인에서도 실습 중심으로 진행합니다.</div>
+        </details>
+      </div>
+      <div class="hero-actions"><a class="btn primary" href="#/contact">기관 교육 문의하기</a></div>
+    </div>
+  </section>
+</div>
+<div class="page" id="page-personal">
+  <section class="page-hero ph-personal">
+    <div class="page-hero-in">
+      <p class="eyebrow">PERSONAL PROGRAM</p>
+      <h1>내 생각을 한눈에 보고,<br>다음 행동을 찾는 시간</h1>
+      <p>혼자 정리하기 어려웠던 생각을 마인드맵으로 꺼내고, 배우려는 목적과 현재 경험에 맞는 과정으로 안내합니다.</p>
+      <div class="hero-actions"><a class="btn primary" href="#/contact">개인 과정 문의하기</a></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="cert-notice" style="margin:0 0 42px">생각테라피교육연구소의 ‘테라피’는 임상 치료가 아니라, 생각을 정리하고 행동으로 연결하는 교육·코칭 기반의 자기 이해 프로그램을 뜻합니다. 의학적 진단이나 심리 치료를 제공하지 않습니다.</div>
+
+    <div class="subsec">
+      <p class="kicker">01 &nbsp;1:1 맞춤교육</p>
+      <h2>내 목적과 속도에 맞게 배우는 1:1 교육</h2>
+      <p class="lede-w">마인드맵 경험과 배우려는 목적에 따라 필요한 과정과 실습 주제를 구성합니다. 온라인과 오프라인으로 진행할 수 있습니다.</p>
+      <ul class="trust-list">
+        <li>마인드맵을 처음부터 제대로 배우고 싶은 분</li>
+        <li>혼자 배웠지만 실제 활용이 어려운 분</li>
+        <li>복잡한 생각을 정리하고 행동으로 옮기고 싶은 분</li>
+        <li>자신의 수업이나 강의에 마인드맵을 적용하고 싶은 분</li>
+        <li>자격 취득과 강의 활동을 준비하는 분</li>
+      </ul>
+      <p style="margin-top:18px">일정과 교육비는 현재 수준과 희망 과정 확인 후 이메일로 안내드립니다.</p>
+      <div class="hero-actions"><a class="btn line" href="#/contact">1:1 교육 문의하기</a></div>
+    </div>
+
+    <div class="subsec">
+      <p class="kicker">02 &nbsp;월간 묵상 마인드맵</p>
+      <h2>월간 묵상 마인드맵</h2>
+      <p class="lede-w">매달 2주 동안 함께하는 묵상 마인드맵 과정입니다. 성경을 읽어도 내용이 오래 남지 않거나, 묵상한 내용을 어떻게 정리하고 나눌지 막막한 분을 위한 과정입니다. 말씀의 흐름과 마음에 남은 내용을 마인드맵으로 정리하고 자신의 적용을 발견합니다.</p>
+      <dl class="dl-list">
+        <div><dt>운영</dt><dd>매달 2주</dd></div>
+        <div><dt>형태</dt><dd>일정 기간 참여자 모집</dd></div>
+        <div><dt>대상</dt><dd>말씀을 더 천천히 읽고 기억하며 나누고 싶은 분</dd></div>
+        <div><dt>신청</dt><dd>모집 공지 또는 이메일 문의</dd></div>
+      </dl>
+      <div class="pull" style="max-width:720px">그림을 잘 그리거나 정리를 잘해야 참여할 수 있는 과정이 아닙니다. 처음 시작하는 분도 순서대로 따라올 수 있도록 안내합니다.</div>
+            <div class="hero-actions">
+        <a class="btn line" href="https://blog.naver.com/gloshim" target="_blank" rel="noopener">블로그에서 모집 공지 보기</a>
+        <a class="btn line" href="#/contact">다음 모집 안내받기</a>
+      </div>
+    </div>
+
+    <div class="subsec">
+      <p class="kicker">03 &nbsp;실행력 UP 워크숍</p>
+      <h2>생각만 반복하던 일을,<br>시작할 행동으로 바꿉니다</h2>
+      <p class="lede-w">반복되는 생각과 미뤄둔 일을 한눈에 정리하고, 지금 시작할 수 있는 한 가지 행동을 정하는 실습형 워크숍입니다. 진행 방식과 완성하는 결과물은 같고, <b>다루는 주제는 기수마다 달라집니다.</b> 연말 정리, 새해 계획, 비움처럼 그 시기에 필요한 주제로 엽니다.</p>
+      <div class="outcome-grid" style="max-width:760px">
+        <div><b>방해요인맵</b><span>미뤄지는 이유를 눈에 보이게</span></div>
+        <div><b>자원과 선택지</b><span>지금 가지고 있는 것 정리</span></div>
+        <div><b>한 가지 행동</b><span>지금 시작할 수 있는 것</span></div>
+        <div><b>실행 시점과 점검</b><span>언제, 어떻게 확인할지</span></div>
+      </div>
+      <div class="info-box">
+        <b>이번 기수 주제와 일정</b>
+        <p>모집이 열릴 때마다 블로그에 공지합니다. 지금 열려 있는 기수가 있는지 블로그에서 확인하시거나, 다음 모집 안내를 신청해 주세요.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn line" href="https://blog.naver.com/gloshim" target="_blank" rel="noopener">블로그에서 모집 공지 보기</a>
+        <a class="btn line" href="#/contact">다음 모집 안내받기</a>
+      </div>
+    </div>
+
+    <div class="subsec">
+      <p class="kicker">04 &nbsp;실행력 UP 챌린지</p>
+      <h2>정한 행동을 실제 생활에서 이어가는 챌린지</h2>
+      <p class="lede-w">워크숍에서 정한 행동을 일정 기간 직접 실행하고, 기록과 점검을 통해 생각이 다시 제자리로 돌아가지 않도록 돕습니다. <b>기간과 주제는 기수마다 달라집니다.</b></p>
+      <div class="outs-line">
+        <span>지난 기수 예시</span>
+        <div class="pill-row"><b>3주 마인드맵 챌린지</b><b>비움 챌린지</b><b>연말 정리 마인드맵</b><b>성경 묵상 하하 프로젝트</b></div>
+      </div>
+      <div class="info-box">
+        <b>다음 기수는 언제 열리나요?</b>
+        <p>모집 시기가 정해지면 블로그에 공지합니다. 안내를 받고 싶으시면 문의 남겨주세요. 모집이 열릴 때 알려드립니다.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn line" href="https://blog.naver.com/gloshim" target="_blank" rel="noopener">블로그에서 모집 공지 보기</a>
+        <a class="btn line" href="#/contact">다음 모집 안내받기</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="band-in">
+      <div class="section-head">
+        <p class="kicker">FAQ</p>
+        <h2>자주 묻는 질문</h2>
+      </div>
+      <div class="faq">
+        <details><summary>마인드맵을 한 번도 그려본 적이 없어도 괜찮을까요?</summary><div class="a">괜찮습니다. 처음 시작하는 분도 순서대로 따라올 수 있도록 안내합니다.</div></details>
+        <details><summary>그림을 못 그려도 되나요?</summary><div class="a">됩니다. 잘 그리는 것이 목표가 아니라, 생각을 꺼내고 연결해서 다음 행동을 찾는 것이 목표입니다.</div></details>
+        <details><summary>온라인으로도 배울 수 있나요?</summary><div class="a">네. 온라인 과정은 Zoom으로 진행합니다.</div></details>
+        <details><summary>무엇을 준비하면 되나요?</summary><div class="a">마인드맵을 그릴 무지 노트(A5 또는 A4 크기를 권합니다)와 검정펜, 색연필이면 충분합니다. 교육자료와 실습지는 제공해 드립니다.</div></details>
+        <details><summary>손으로 그리나요, 디지털 도구를 쓰나요?</summary><div class="a">둘 다 가능합니다. 종이와 펜으로 그려도 되고, 디지털 마인드맵 도구를 활용해도 됩니다. 편한 방식과 배우려는 목적에 맞춰 안내합니다.</div></details>
+        <details><summary>교육비와 일정은 어디에서 확인하나요?</summary><div class="a">현재 수준과 희망하는 과정을 확인한 뒤 이메일로 안내드립니다.</div></details>
+        <details><summary>자격과정은 순서대로 들어야 하나요?</summary><div class="a">네. 마인드맵테라피 기본과정을 수료해야 2급 심화과정을, 2급까지 수료해야 1급 코칭과정을 신청할 수 있습니다.</div></details>
+        <details><summary>자격 취득까지 얼마나 걸리나요?</summary><div class="a">각 과정은 1개월 단위로 진행되며, 순서대로 수강하면 최소 3개월이 필요합니다. 개인 일정에 따라 달라질 수 있습니다.</div></details>
+      </div>
+      
+      <div class="hero-actions"><a class="btn primary" href="#/contact">개인 과정 문의하기</a></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="cta-band">
+      <div>
+        <p class="kicker" style="color:#fbbf24">NEXT STEP</p>
+        <h3>마인드맵을 교육에 활용하고 싶다면</h3>
+        <p>기본과정에서 마인드맵의 원리를 익히고, 심화과정에서 다양한 주제에 적용한 뒤, 코칭과정에서 자신의 강의를 직접 기획하고 시연합니다.</p>
+      </div>
+      <div class="hero-actions" style="margin:0"><a class="btn primary" href="#/certificate">전문가 자격과정 알아보기</a></div>
+    </div>
+  </section>
+</div>
+<div class="page" id="page-certificate">
+  <section class="page-hero ph-cert">
+    <div class="page-hero-in">
+      <p class="eyebrow">MIND MAP EDUCATION PROFESSIONAL</p>
+      <h1>마인드맵을 배우는 사람에서,<br>다른 사람의 생각을 돕는 교육자로</h1>
+      <p>마인드맵의 원리를 배우는 기본과정부터 다양한 주제에 적용하는 심화과정, 자신의 강의를 기획하고 시연하는 코칭과정까지 단계별로 진행합니다.</p>
+      <div class="hero-actions"><a class="btn primary" href="#/contact">자격과정 문의하기</a></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="cert-notice" style="margin:0 0 42px">생각테라피교육연구소의 ‘테라피’는 임상 치료가 아니라, 생각을 정리하고 행동으로 연결하는 교육·코칭 기반의 자기 이해 프로그램을 뜻합니다. 의학적 진단이나 심리 치료를 제공하지 않습니다.</div>
+
+    <div class="section-head">
+      <p class="kicker">CURRICULUM</p>
+      <h2>전체 과정</h2>
+      <p>정리 → 적용 → 전문성으로 이어지는 세 단계입니다. 앞 과정을 수료해야 다음 과정을 신청할 수 있습니다.</p>
+    </div>
+
+    <div class="prog">
+      <div class="prog-row">
+        <span>01</span>
+        <div>
+          <h3>마인드맵테라피 기본과정</h3>
+          <p>마인드맵의 원리와 기본 활용법을 익히고, 생각을 꺼내고 연결하여 한눈에 구조화하는 방법을 배웁니다.</p>
+          <dl class="dl-list" style="margin-top:18px">
+            <div><dt>기간</dt><dd>1개월</dd></div>
+            <div><dt>구성</dt><dd>총 5회 — 이론강의 4회 + 전체 피드백 1회</dd></div>
+            <div><dt>수료 후</dt><dd>마인드맵교육전문가 2급 심화과정 신청 가능</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="prog-row">
+        <span>02</span>
+        <div>
+          <h3>마인드맵교육전문가 2급 심화과정</h3>
+          <p>기본과정에서 배운 마인드맵을 다양한 주제와 교육 장면에 적용하는 실습 중심 과정입니다.</p>
+          <dl class="dl-list" style="margin-top:18px">
+            <div><dt>신청 조건</dt><dd>마인드맵테라피 기본과정 수료</dd></div>
+            <div><dt>기간 · 구성</dt><dd>1개월 · 총 4회 (이론 · 실습 · 결과물 피드백)</dd></div>
+            <div><dt>자격 취득 조건</dt><dd>기본·심화과정 수료 및 필수 과제 100% 완료</dd></div>
+            <div><dt>취득 자격</dt><dd>마인드맵교육전문가 2급</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="prog-row">
+        <span>03</span>
+        <div>
+          <h3>마인드맵교육전문가 1급 코칭과정</h3>
+          <p>자신의 경험과 전문 분야를 마인드맵 교육으로 설계하고, 직접 강의를 진행할 수 있도록 준비하는 과정입니다.</p>
+          <dl class="dl-list" style="margin-top:18px">
+            <div><dt>신청 조건</dt><dd>기본과정과 2급 심화과정 수료</dd></div>
+            <div><dt>기간 · 구성</dt><dd>1개월 · 총 5회 — 1~4회 강의 커리큘럼 기획·제작, 5회 강의 시연 및 피드백</dd></div>
+            <div><dt>자격 취득 조건</dt><dd>기본·심화·코칭과정 수료 및 필수 과제 100% 완료</dd></div>
+            <div><dt>취득 자격</dt><dd>마인드맵교육전문가 1급</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="band-in">
+      <div class="section-head">
+        <p class="kicker">AFTER</p>
+        <h2>배운 마인드맵을<br>자신의 교육에 활용할 수 있습니다</h2>
+        <p>자격 취득 후 마인드맵 교육을 진행하거나, 자신의 전문 분야에 마인드맵 도구를 접목한 강의를 기획하고 진행할 수 있습니다.</p>
+      </div>
+      <ul class="trust-list">
+        <li>마인드맵 기본교육 진행</li>
+        <li>독서·학습·진로·소통 등 주제별 마인드맵 교육</li>
+        <li>자신의 전문 분야와 마인드맵을 연결한 강의 기획</li>
+        <li>기관과 참여자에 맞는 실습 및 교육자료 제작</li>
+      </ul>
+      <div class="cert-notice" style="margin-top:18px">자격 취득이 취업이나 강의 활동을 자동으로 보장하는 것은 아닙니다. 실제 활동 범위는 개인의 전문성, 경험과 교육 준비에 따라 달라집니다.</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="kicker">HOW</p>
+      <h2>현재 수준과 목적에 맞춰 안내합니다</h2>
+      <p>과정은 온라인과 오프라인으로 진행할 수 있습니다. 선행과정 수료 여부와 배우려는 목적을 확인한 뒤 신청 가능한 과정과 일정을 이메일로 안내드립니다.</p>
+    </div>
+
+    <div class="legal-box">
+      <h3>민간자격 등록정보</h3>
+      <dl class="dl-list">
+        <div><dt>자격명</dt><dd>마인드맵교육전문가</dd></div>
+        <div><dt>등급</dt><dd>1급 · 2급</dd></div>
+        <div><dt>자격의 종류</dt><dd>등록민간자격</dd></div>
+        <div><dt>등록번호</dt><dd>2023-001944</dd></div>
+        <div><dt>주무부처</dt><dd>교육부</dd></div>
+        <div><dt>자격관리·발급기관</dt><dd>생각테라피교육연구소</dd></div>
+        <div><dt>총 교육비용</dt><dd>별도 문의 (gloshim@naver.com · 010-2824-0708)</dd></div>
+        <div><dt>환불 기준</dt><dd><a class="inline-link" href="#/refund">교육비 환불 안내</a></dd></div>
+        <div><dt>문의</dt><dd>gloshim@naver.com · 010-2824-0708</dd></div>
+      </dl>
+      <div class="cert-notice" style="margin-top:18px">본 자격은 자격기본법에 따라 등록한 민간자격이며, 국가로부터 인정받은 공인자격은 아닙니다.</div>
+    </div>
+
+    <div class="hero-actions"><a class="btn primary" href="#/contact">자격과정 문의하기</a></div>
+  </section>
+</div>
+<div class="page" id="page-cases">
+  <section class="page-hero ph-cases">
+    <div class="page-hero-in">
+      <p class="eyebrow">EDUCATION RECORD</p>
+      <h1>대상은 달라도,<br>생각이 보이면 다음 행동이 시작됩니다</h1>
+      <p>교육청·학교·대학·공공기관·청년기관·가족센터·교회 등 다양한 현장에서 대상과 목적에 맞는 마인드맵 교육을 진행했습니다.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="gal">
+      <figure><img src="assets/img-1215134228.jpg" alt="교육지원청 강당에서 마인드맵 실습을 진행하는 교육 현장"></figure>
+      <figure><img src="assets/img-42b5d3bfd0.jpg" alt="교육연수원 대강의실에서 참여자들이 마인드맵을 작성하는 모습"></figure>
+      <figure><img src="assets/img-37718c73fa.jpg" alt="가족센터에서 마인드맵을 활용한 소통 교육을 진행하는 모습"></figure>
+      <figure><img src="assets/img-3f6e38778a.jpg" alt="참여자들이 노트에 마인드맵을 그리고 있는 실습 장면"></figure>
+    </div>
+
+    <div class="info-box" style="margin-top:56px;max-width:none">
+      <b>온라인 · 오프라인 모두 진행합니다</b>
+      <p>기관을 직접 방문하는 교육과 온라인 실시간 교육을 함께 운영합니다. 아래 실적에는 두 형태가 모두 포함되어 있으며, 해마다 온라인 강의를 이어오고 있습니다. 2022년에는 UDEMY에 마인드맵 테라피 온라인 동영상 강의를 출시했습니다. 개인 과정과 전문가 자격과정도 온라인으로 수강할 수 있습니다.</p>
+    </div>
+
+    <div class="section-head" style="margin-top:34px">
+      <p class="kicker">RECORD</p>
+      <h2>지금까지 함께한 교육</h2>
+      <p>연도와 기관, 진행한 교육 주제입니다.</p>
+    </div>
+    <div class="record">
+      <div class="row"><span class="yr">2026</span><div><b>남양주교육청</b><span>학교도서관 활용 마인드맵</span></div></div>
+      <div class="row"><span class="yr">2026</span><div><b>양평교육청</b><span>사서를 위한 학교 도서관 마인드맵</span></div></div>
+      <div class="row"><span class="yr">2026</span><div><b>대구가톨릭대학교</b><span>AI와 마인드맵으로 그리는 진로 로드맵</span></div></div>
+      <div class="row"><span class="yr">2026</span><div><b>서울미림유치원</b><span>마인드맵 활용 언어활동 연수</span></div></div>
+      <div class="row"><span class="yr">2026</span><div><b>동일교회</b><span>묵상 마인드맵 · 나를 그리는 마인드맵테라피</span></div></div>
+      <div class="row"><span class="yr">2025</span><div><b>전북교육청</b><span>마인드맵을 통한 문제해결과 사고확장</span></div></div>
+      <div class="row"><span class="yr">2025</span><div><b>인문고전독서지도사협회</b><span>독서 마인드맵</span></div></div>
+      <div class="row"><span class="yr">2025</span><div><b>대구달성군가족센터</b><span>소통 마인드맵</span></div></div>
+      <div class="row"><span class="yr">2025</span><div><b>인천동구청년센터</b><span>청년 스트레스 관리 마인드맵테라피</span></div></div>
+      <div class="row"><span class="yr">2024–2025</span><div><b>Mission Motivators · Hosanna Academy</b><span>필리핀 현지학교 마인드맵 교육</span></div></div>
+      <div class="row"><span class="yr">2023–2024</span><div><b>서울시교육청</b><span>업무정리 스킬 마인드맵 · 일잘러가 되기 위한 생각정리스킬 · 한번에 끝내는 업무정리스킬</span></div></div>
+      <div class="row"><span class="yr">2024</span><div><b>중앙청년지원센터</b><span>소중한 나를 지키는 도구, 마인드맵 테라피</span></div></div>
+      <div class="row"><span class="yr">2024</span><div><b>평창군청년지원센터</b><span>개인역량 강화를 위한 마인드맵테라피</span></div></div>
+      <div class="row"><span class="yr">2024</span><div><b>미타임캠퍼스</b><span>실행력 UP 워크숍</span></div></div>
+      <div class="row"><span class="yr">2024</span><div><b>새에덴교회</b><span>청소년 리더십 — 생각정리 &amp; 독서 마인드맵</span></div></div>
+      <div class="row"><span class="yr">2023</span><div><b>충북문화재단</b><span>소통역량교육 마인드맵테라피</span></div></div>
+      <div class="row"><span class="yr">2023</span><div><b>인천마을교육공동체 (아라누림)</b><span>하브루타 마인드맵 교육</span></div></div>
+      <div class="row"><span class="yr">2023</span><div><b>하누리에듀케이션</b><span>대안교육 마을 활동가 마인드맵 코칭</span></div></div>
+      <div class="row"><span class="yr">2023</span><div><b>라이팅포라이트</b><span>작가를 위한 마인드맵테라피 특강</span></div></div>
+      <div class="row"><span class="yr">2023</span><div><b>고전으로여는세상</b><span>인문고전 독서토론 마인드맵 강의</span></div></div>
+      <div class="row"><span class="yr">2022</span><div><b>남부대학교</b><span>마인드맵 학습법 — 기억력을 촉진하는 학습법 · 맵핑전략</span></div></div>
+      <div class="row"><span class="yr">2022</span><div><b>UDEMY</b><span>마인드맵 테라피 온라인 동영상 강의 출시</span></div></div>
+      <div class="row"><span class="yr">2021</span><div><b>대전 세빛스쿨</b><span>교사 마인드맵 독서교육</span></div></div>
+      <div class="row"><span class="yr">2021</span><div><b>오아시스</b><span>성경 마인드맵</span></div></div>
+      <p class="etc">그 외 공공기관·교육기관·교사 및 성인 대상 마인드맵 교육 다수. 성경 마인드맵 교육과 프로젝트는 2020년부터 이어오고 있습니다.</p>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="section-head">
+      <p class="kicker">VOICES</p>
+      <h2>참여자들이 남긴 말</h2>
+      <p>교육 후 진행한 만족도 설문과 참여자들이 직접 남겨주신 후기입니다. 동의 아래 익명으로 인용했습니다.</p>
+    </div>
+        <div class="subsec">
+          <p class="kicker">교육자 · 사서</p>
+          <div class="voices">
+          <div class="voice">
+            <blockquote>“구조적인 업무가 주인 사서교사에게 좀 더 다양한 아이디어를 주셔서 좋았어요”</blockquote>
+            <cite>남양주교육청 학교도서관 사서 직무연수 참여자</cite>
+          </div>
+          <div class="voice">
+            <blockquote>“나의 업무 장점 강화와 약점 분석에 탁월”</blockquote>
+            <cite>양평교육청 학교도서관 사서 직무연수 참여자</cite>
+          </div>
+          <div class="voice">
+            <blockquote>“내 마음을 좀 더 볼 수 있었던 연수였다”</blockquote>
+            <cite>남양주교육청 학교도서관 사서 직무연수 참여자</cite>
+          </div>
+          <div class="voice">
+            <blockquote>“저도 마인드맵 강의를 여러 강사님께 들어봤는데, 선생님 강의 정말 최고예요. 목소리 톤과 말씀하시는 속도, 한마디 한마디가 머리로 마음으로 와닿았어요”</blockquote>
+            <cite>독서모임 운영 선생님 참여자</cite>
+          </div>
+          </div>
+        </div>
+        <div class="subsec">
+          <p class="kicker">성인 · 직장인</p>
+          <div class="voices">
+          <div class="voice">
+            <blockquote>“업무 시작 전에 큰 그림 그리기가 될 것 같아 유용하고, 구성원들과 공유도 가능하니 더 좋네요”</blockquote>
+            <cite>서울시교육청 업무정리 마인드맵 참여자</cite>
+          </div>
+          <div class="voice">
+            <blockquote>“업무를 머릿속에 정리하던 것을 눈으로 쉽게 볼 수 있게 되었습니다”</blockquote>
+            <cite>서울시교육청 업무정리 마인드맵 참여자</cite>
+          </div>
+          <div class="voice">
+            <blockquote>“얽혀 있는 생각을 잘 정리할 수 있고, 유익하게 활용해 보겠습니다”</blockquote>
+            <cite>서울시교육청 업무정리 마인드맵 참여자</cite>
+          </div>
+          <div class="voice">
+            <blockquote>“한눈에 보이도록 남는 결과물, 그때의 내 생각이 뿌듯함”</blockquote>
+            <cite>인천마을교육공동체(아라누림) 마인드맵테라피 참여자</cite>
+          </div>
+          </div>
+        </div>
+        <div class="subsec">
+          <p class="kicker">청소년</p>
+          <div class="voices">
+          <div class="voice">
+            <blockquote>“지금까지 생각해보지 못한 것들이 떠올라 흥미로웠다. 그것에 대답하는 나를 보며 지금까지의 나를 되돌아볼 수 있어 좋았다”</blockquote>
+            <cite>청소년 마인드맵 수업 참여자</cite>
+          </div>
+          <div class="voice">
+            <blockquote>“처음에는 그냥 식상한 얘기인 줄 알았는데, 내가 나에 대해 자각하지 못했던 것을 자각하게 된 것 같다”</blockquote>
+            <cite>청소년 마인드맵 수업 참여자</cite>
+          </div>
+          <div class="voice">
+            <blockquote>“3시간이 결코 짧지 않은데, 중간중간 직접 하는 활동을 넣어주셔서 즐거운 3시간이었다”</blockquote>
+            <cite>청소년 마인드맵 수업 참여자</cite>
+          </div>
+          </div>
+        </div>
+        <div class="subsec">
+          <p class="kicker">교회 · 신앙공동체</p>
+          <div class="voices">
+          <div class="voice">
+            <blockquote>“큐티보다 더 깊은 묵상이 된 것 같아 좋아요”</blockquote>
+            <cite>동일교회 묵상 마인드맵 참여자</cite>
+          </div>
+          <div class="voice">
+            <blockquote>“각자의 말씀이 되고 더 교제가 풍성해지는 것 같아 좋았어요”</blockquote>
+            <cite>동일교회 묵상 마인드맵 참여자</cite>
+          </div>
+          <div class="voice">
+            <blockquote>“생각으로만 머물던 것들이 구체화되어 어떻게 행동할 것인지가 보였습니다”</blockquote>
+            <cite>동일교회 마인드맵테라피 참여자</cite>
+          </div>
+          </div>
+        </div>
+  </section>
+
+  <section class="band">
+    <div class="band-in">
+      <div class="section-head">
+        <p class="kicker">PARTNERS</p>
+        <h2>함께한 기관</h2>
+        <p>교육청, 학교, 대학, 공공기관, 청년기관, 가족센터, 교회와 함께 대상에 맞는 마인드맵 교육을 진행했습니다.</p>
+      </div>
+      <div class="pill-row">
+        <b>남양주교육청</b><b>양평교육청</b><b>전북교육청</b><b>서울시교육청</b><b>대구가톨릭대학교</b>
+        <b>남부대학교</b><b>대전 세빛스쿨</b><b>서울미림유치원</b><b>중앙청년지원센터</b><b>평창군청년지원센터</b>
+        <b>인천동구청년센터</b><b>대구달성군가족센터</b><b>충북문화재단</b><b>하누리에듀케이션</b><b>인천마을교육공동체 (아라누림)</b>
+        <b>라이팅포라이트</b><b>독서하브루타협회</b><b>인문고전독서지도사협회</b><b>고전으로여는세상</b><b>미타임캠퍼스</b>
+        <b>오아시스</b><b>Mission Motivators</b><b>Hosanna Academy</b><b>새에덴교회</b><b>동일교회</b>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="cta-band">
+      <div>
+        <p class="kicker" style="color:#fbbf24">NEXT STEP</p>
+        <h3>우리 기관의 대상과 목적에도 맞출 수 있을까요?</h3>
+        <p>대상, 인원, 교육시간과 기대하는 변화를 알려주세요. 기존 프로그램을 그대로 반복하기보다 기관에 맞게 구성해 드립니다.</p>
+      </div>
+      <div class="hero-actions" style="margin:0"><a class="btn primary" href="#/contact">기관 교육 문의하기</a></div>
+    </div>
+  </section>
+</div>
+<div class="page" id="page-contact">
+  <section class="page-hero ph-contact">
+    <div class="page-hero-in">
+      <p class="eyebrow">CONTACT</p>
+      <h1>필요한 교육을 알려주세요</h1>
+      <p>교육 대상과 목적을 확인한 뒤 알맞은 내용과 진행 방식을 제안해 드립니다. 세부 일정과 교육비는 이메일로 안내합니다.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="contact-panel">
+      <div>
+        <p class="kicker">KAKAO OPEN CHAT</p>
+        <h3>먼저 가볍게 물어보고 싶으신가요?</h3>
+        <p>카카오톡 오픈채팅으로 편하게 문의해 주세요. 현재 상황을 여쭙고 어떤 과정이 맞을지 함께 찾아드립니다.</p>
+      </div>
+      <a class="btn kakao" href="https://open.kakao.com/o/szYGCqTe" target="_blank" rel="noopener">카카오톡 오픈채팅 열기</a>
+    </div>
+
+    <div class="form-duo">
+      <div class="form-card">
+        <span>01 &nbsp;기관 교육 신청서</span>
+        <h3>기관 교육 문의</h3>
+        <p>교육청·학교·공공기관·가족센터·교회 등 단체 교육을 의뢰하실 때 작성해 주세요.</p>
+        <form data-form="org" novalidate>
+          <div class="field">
+            <label for="o-org">기관명<i>*</i></label>
+            <input id="o-org" name="기관명" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="o-manager">담당자명<i>*</i></label>
+              <input id="o-manager" name="담당자명" required>
+            </div>
+            <div class="field">
+              <label for="o-email">회신받을 이메일<i>*</i></label>
+              <input id="o-email" name="회신받을 이메일" type="email" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="o-target">교육 대상<i>*</i></label>
+            <input id="o-target" name="교육 대상" placeholder="예: 초등 4~6학년 / 사서교사 / 청년 / 부모" required>
+          </div>
+          <div class="field">
+            <label for="o-message">참여자에게 필요한 변화 또는 현재의 어려움<i>*</i></label>
+            <textarea id="o-message" name="필요한 변화 또는 어려움" required></textarea>
+          </div>
+
+          <details class="more">
+            <summary>선택 항목 열기 (지금 정해지지 않았으면 비워두셔도 됩니다)</summary>
+            <div class="inner">
+              <div class="field-row">
+                <div class="field"><label for="o-phone">연락처</label><input id="o-phone" name="연락처"></div>
+                <div class="field"><label for="o-count">예상 인원</label><input id="o-count" name="예상 인원"></div>
+              </div>
+              <div class="field">
+                <label for="o-schedule">희망 일정과 교육시간</label>
+                <input id="o-schedule" name="희망 일정과 교육시간" placeholder="예: 11월 중 평일 오후 3시간">
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="o-mode">온라인 · 오프라인</label>
+                  <select id="o-mode" name="진행 방식">
+                    <option value="">선택 안 함</option>
+                    <option>오프라인</option>
+                    <option>온라인</option>
+                    <option>협의 후 결정</option>
+                  </select>
+                </div>
+                <div class="field"><label for="o-place">교육 장소</label><input id="o-place" name="교육 장소"></div>
+              </div>
+              <div class="field"><label for="o-topic">관심 있는 교육 주제</label><input id="o-topic" name="관심 있는 교육 주제"></div>
+              <div class="field"><label for="o-budget">강사료 기준 또는 예산 범위</label><input id="o-budget" name="강사료 기준 또는 예산"></div>
+              <div class="field"><label for="o-docs">필요한 자료</label><input id="o-docs" name="필요한 자료" placeholder="강사 프로필 / 교육 제안서 / 교육 진행 사진"></div>
+            </div>
+          </details>
+
+          <label class="consent">
+            <input type="checkbox" required>
+            <span>문의 답변을 위해 이름, 연락처, 이메일과 문의 내용을 수집하는 데 동의합니다. 수집한 정보는 문의 답변 외의 목적으로 사용하지 않습니다.</span>
+          </label>
+
+          <div class="form-actions">
+            <button class="btn primary" type="submit">기관 교육 문의 보내기</button>
+          </div>
+          <div class="form-status"></div>
+        </form>
+      </div>
+
+      <div class="form-card">
+        <span>02 &nbsp;개인 과정 신청서</span>
+        <h3>개인·자격과정 문의</h3>
+        <p>1:1 맞춤교육, 묵상 마인드맵, 실행력 워크숍, 마인드맵교육전문가 자격과정을 문의하실 때 작성해 주세요.</p>
+        <form data-form="personal" novalidate>
+          <div class="field-row">
+            <div class="field"><label for="p-name">이름<i>*</i></label><input id="p-name" name="이름" required></div>
+            <div class="field"><label for="p-email">회신받을 이메일<i>*</i></label><input id="p-email" name="회신받을 이메일" type="email" required></div>
+          </div>
+          <div class="field">
+            <label for="p-course">관심 과정<i>*</i></label>
+            <select id="p-course" name="관심 과정" required>
+              <option value="">선택해 주세요</option>
+              <option>마인드맵테라피 1:1 맞춤교육</option>
+              <option>마인드맵테라피 기본과정</option>
+              <option>마인드맵교육전문가 2급 심화과정</option>
+              <option>마인드맵교육전문가 1급 코칭과정</option>
+              <option>월간 묵상 마인드맵</option>
+              <option>실행력 UP 워크숍 · 챌린지</option>
+              <option>아직 잘 모르겠어요. 상담 후 결정하고 싶어요.</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="p-message">배우려는 목적이나 궁금한 점<i>*</i></label>
+            <textarea id="p-message" name="배우려는 목적 또는 궁금한 점" required></textarea>
+          </div>
+
+          <details class="more">
+            <summary>선택 항목 열기</summary>
+            <div class="inner">
+              <div class="field-row">
+                <div class="field"><label for="p-phone">연락처</label><input id="p-phone" name="연락처"></div>
+                <div class="field">
+                  <label for="p-exp">마인드맵 경험</label>
+                  <select id="p-exp" name="마인드맵 경험">
+                    <option value="">선택 안 함</option>
+                    <option>처음입니다</option>
+                    <option>혼자 그려본 적 있습니다</option>
+                    <option>교육을 받은 적 있습니다</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="p-mode">온라인 · 오프라인</label>
+                  <select id="p-mode" name="진행 방식">
+                    <option value="">선택 안 함</option>
+                    <option>온라인</option>
+                    <option>오프라인</option>
+                    <option>협의 후 결정</option>
+                  </select>
+                </div>
+                <div class="field"><label for="p-time">가능한 요일과 시간</label><input id="p-time" name="가능한 요일과 시간"></div>
+              </div>
+            </div>
+          </details>
+
+          <label class="consent">
+            <input type="checkbox" required>
+            <span>문의 답변을 위해 이름, 연락처, 이메일과 문의 내용을 수집하는 데 동의합니다. 수집한 정보는 문의 답변 외의 목적으로 사용하지 않습니다.</span>
+          </label>
+
+          <div class="form-actions">
+            <button class="btn primary" type="submit">개인 과정 문의 보내기</button>
+          </div>
+          <div class="form-status"></div>
+        </form>
+      </div>
+    </div>
+
+    <div class="contact-line">
+      <span><b>이메일</b>&nbsp;&nbsp;gloshim@naver.com</span>
+      <span><b>전화</b>&nbsp;&nbsp;010-2824-0708</span>
+      <span>오프라인 교육 가능 지역과 출장비는 일정과 장소 확인 후 이메일로 협의합니다.</span>
+    </div>
+
+    <div class="section-head" style="margin:64px 0 34px">
+      <p class="kicker">PROCESS</p>
+      <h2>문의는 이렇게 진행됩니다</h2>
+    </div>
+    <div class="process-grid">
+      <article><span>STEP 01</span><b>문의 접수</b><p>신청서를 보내주시면 접수 확인 후 검토를 시작합니다.</p></article>
+      <article><span>STEP 02</span><b>대상과 목적 확인</b><p>참여자에게 필요한 변화와 기대하는 결과를 확인합니다.</p></article>
+      <article><span>STEP 03</span><b>과정 제안</b><p>교육시간에 맞춰 내용과 진행 방식을 제안해 드립니다.</p></article>
+      <article><span>STEP 04</span><b>일정 확정</b><p>장소, 준비물과 세부 일정을 협의하고 확정합니다.</p></article>
+    </div>
+  </section>
+</div>
+<div class="page" id="page-refund">
+  <section class="section legal">
+    <p class="kicker">REFUND POLICY</p>
+    <h2>교육비 환불 안내</h2>
+    <h3>환불 기준</h3>
+    <ul>
+      <li>교육 시작 전: 납부한 교육비 전액 환불</li>
+      <li>전체 교육시간의 3분의 1이 지나기 전: 납부한 교육비의 3분의 2 환불</li>
+      <li>전체 교육시간의 2분의 1이 지나기 전: 납부한 교육비의 2분의 1 환불</li>
+      <li>전체 교육시간의 2분의 1이 지난 후: 환불 불가</li>
+      <li>환불 금액은 실제 납부한 교육비를 기준으로 계산합니다.</li>
+      <li>수강자의 개인 사정으로 참여하지 못한 회차도 교육 진행시간에 포함됩니다.</li>
+      <li>연구소 사정으로 교육을 진행할 수 없는 경우에는 미진행 교육비를 환불하거나 수강자와 협의하여 일정을 변경합니다.</li>
+      <li>환불 신청은 이메일로 접수하며, 신청 내용을 확인한 후 5영업일 이내 처리합니다.</li>
+    </ul>
+    <h3>1:1 교육 일정 변경</h3>
+    <ul>
+      <li>일정 변경은 수업 시작 24시간 전까지 요청해 주세요.</li>
+      <li>수업 당일 취소 또는 사전 연락 없이 참여하지 않은 경우에는 해당 회차가 진행된 것으로 처리됩니다.</li>
+      <li>천재지변, 질병 등 불가피한 사유가 있는 경우에는 상황을 확인하여 일정을 협의할 수 있습니다.</li>
+      <li>강사의 사정으로 수업이 진행되지 못한 경우에는 수강자와 협의하여 보강 일정을 정합니다.</li>
+    </ul>
+    <div class="cert-notice" style="margin-top:28px">월간 묵상 마인드맵, 실행력 UP 워크숍·챌린지처럼 회차가 짧거나 기수제로 운영되는 과정의 환불 기준은 확정 후 안내드립니다.</div>
+    <p style="margin-top:22px">환불 문의: gloshim@naver.com · 010-2824-0708</p>
+  </section>
+</div>
+<div class="page" id="page-privacy">
+  <section class="section legal">
+    <p class="kicker">PRIVACY POLICY</p>
+    <h2>개인정보 처리방침</h2>
+    <p>생각테라피교육연구소(이하 ‘연구소’)는 「개인정보 보호법」 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p>
+
+    <h3>제1조 (개인정보의 처리 목적)</h3>
+    <p>연구소는 다음의 목적을 위하여 개인정보를 처리하며, 목적 이외의 용도로는 이용하지 않습니다.</p>
+    <ul>
+      <li>교육 문의에 대한 회신 및 상담</li>
+      <li>교육 과정 안내, 일정과 진행 방식 협의</li>
+      <li>교육 신청자 확인 및 수강 관련 안내</li>
+    </ul>
+
+    <h3>제2조 (처리하는 개인정보의 항목)</h3>
+    <ul>
+      <li>기관 교육 문의 — 필수: 기관명, 담당자명, 이메일, 교육 대상, 문의 내용 / 선택: 연락처, 예상 인원, 희망 일정, 교육 장소, 관심 주제, 예산 범위</li>
+      <li>개인·자격과정 문의 — 필수: 이름, 이메일, 관심 과정, 문의 내용 / 선택: 연락처, 마인드맵 경험, 가능한 요일과 시간</li>
+      <li>연구소는 쿠키 등 자동 수집 장치를 통해 개인정보를 수집하지 않습니다.</li>
+      <li>문의는 이메일로 접수되며, 연구소는 별도의 회원 데이터베이스를 운영하지 않습니다.</li>
+    </ul>
+
+    <h3>제3조 (개인정보의 처리 및 보유 기간)</h3>
+    <ul>
+      <li>교육 문의 정보는 문의 답변이 완료된 날부터 1년간 보관한 뒤 파기합니다. 재문의와 교육 이력 확인을 위한 최소한의 기간입니다.</li>
+      <li>교육이 실제 진행되어 계약과 정산이 발생한 경우, 관계 법령에서 정한 기간 동안 거래 기록을 보관합니다.</li>
+      <li>정보주체가 삭제를 요청하면 위 기간과 관계없이 지체 없이 파기합니다.</li>
+    </ul>
+
+    <h3>제4조 (개인정보의 제3자 제공)</h3>
+    <p>연구소는 정보주체의 개인정보를 제3자에게 제공하지 않습니다. 다만 정보주체의 사전 동의가 있거나 법령에 특별한 규정이 있는 경우에는 예외로 합니다.</p>
+
+    <h3>제5조 (개인정보 처리의 위탁)</h3>
+    <p>연구소는 개인정보 처리 업무를 외부에 위탁하지 않습니다. 문의는 연구소 대표의 이메일로 직접 접수되며, 중간에 별도의 처리 사업자를 거치지 않습니다. 향후 위탁이 발생하는 경우 위탁받는 자와 위탁 업무 내용을 본 방침에 공개하겠습니다.</p>
+
+    <h3>제6조 (정보주체의 권리·의무 및 행사 방법)</h3>
+    <ul>
+      <li>정보주체는 언제든지 개인정보 열람, 정정·삭제, 처리정지를 요구할 수 있습니다.</li>
+      <li>요구는 이메일(gloshim@naver.com)로 하실 수 있으며, 연구소는 지체 없이 조치합니다.</li>
+      <li>정보주체가 개인정보의 오류에 대한 정정을 요청한 경우, 정정을 완료할 때까지 해당 개인정보를 이용하지 않습니다.</li>
+    </ul>
+
+    <h3>제7조 (개인정보의 파기)</h3>
+    <ul>
+      <li>보유 기간이 지나거나 처리 목적이 달성되면 지체 없이 파기합니다.</li>
+      <li>전자적 파일 형태는 복구할 수 없는 방법으로 삭제하고, 종이 문서는 분쇄하거나 소각합니다.</li>
+    </ul>
+
+    <h3>제8조 (개인정보의 안전성 확보조치)</h3>
+    <ul>
+      <li>개인정보를 취급하는 인원은 연구소 대표 1인으로 제한합니다.</li>
+      <li>문의 내용은 대표가 사용하는 이메일 계정의 별도 보관함에만 두며, 다른 저장소로 복사하지 않습니다.</li>
+      <li>해당 이메일 계정에는 2단계 인증을 적용하고 비밀번호를 주기적으로 변경합니다.</li>
+      <li>문의 내용은 답변 목적 외의 용도로 열람하거나 활용하지 않습니다.</li>
+      <li>보관 기간이 지난 문의는 연 1회 일괄 확인하여 파기합니다.</li>
+    </ul>
+
+    <h3>제9조 (개인정보 보호책임자)</h3>
+    <dl class="dl-list">
+      <div><dt>성명 · 직위</dt><dd>김연정 · 대표</dd></div>
+      <div><dt>이메일</dt><dd>gloshim@naver.com</dd></div>
+      <div><dt>전화</dt><dd>010-2824-0708</dd></div>
+    </dl>
+    <p style="margin-top:14px">정보주체는 개인정보 보호와 관련한 문의, 불만 처리, 피해 구제에 관한 사항을 개인정보 보호책임자에게 문의할 수 있습니다.</p>
+
+    <h3>제10조 (권익침해 구제 방법)</h3>
+    <p>개인정보 침해로 인한 상담과 피해 구제가 필요한 경우 아래 기관에 문의하실 수 있습니다.</p>
+    <ul>
+      <li>개인정보분쟁조정위원회 — 1833-6972 (www.kopico.go.kr)</li>
+      <li>개인정보침해신고센터 — 118 (privacy.kisa.or.kr)</li>
+      <li>대검찰청 사이버수사과 — 1301 (www.spo.go.kr)</li>
+      <li>경찰청 사이버수사국 — 182 (ecrm.police.go.kr)</li>
+    </ul>
+
+    <h3>제11조 (개인정보 처리방침의 변경)</h3>
+    <p>본 방침의 내용에 추가, 삭제 및 수정이 있을 경우 시행 7일 전부터 홈페이지를 통해 알립니다.</p>
+    <p style="margin-top:10px"><b>시행일자: 2026년 8월 31일</b></p>
+  </section>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="foot">
+    <div>
+      <b>생각테라피교육연구소</b>
+      <p>
+        대표 김연정 · 이메일 gloshim@naver.com · 전화 010-2824-0708<br>
+        기관과 참여자의 목적에 맞는 마인드맵 교육을 설계합니다. 오프라인 교육 지역과 출장비는 문의 후 협의합니다.
+      </p>
+    </div>
+    <div class="foot-links">
+      <a href="#/about">연구소 소개</a>
+      <a href="#/organization">기관 교육</a>
+      <a href="#/personal">개인 과정</a>
+      <a href="#/certificate">전문가 자격과정</a>
+      <a href="#/cases">교육사례</a>
+      <a href="#/contact">교육 문의</a>
+      <a href="https://blog.naver.com/gloshim" target="_blank" rel="noopener">블로그</a>
+      <a href="#/privacy">개인정보처리방침</a>
+      <a href="#/refund">교육비 환불 안내</a>
+    </div>
+  </div>
+  <p class="preview-note">전체 페이지 시안입니다. 사진은 참여자 얼굴이 드러나지 않는 컷만 사용했습니다. 문의 폼은 전송 키를 넣기 전까지 방문자의 메일 앱이 입력 내용과 함께 열립니다.</p>
+</footer>
+
+<script>
+/* ────────────────────────────────────────────────────────────────
+   문의 폼 전송 설정
+   ACCESS_KEY 를 채우면 사이트 안에서 바로 전송되고 메일로 도착합니다.
+   비워두면 방문자의 메일 앱이 입력 내용과 함께 열립니다.
+   발급: https://web3forms.com  (이메일만 입력하면 키가 메일로 옵니다)
+──────────────────────────────────────────────────────────────── */
+var ACCESS_KEY = "";
+var TO_EMAIL = "gloshim@naver.com";
+
+var LABELS = {
+  org: { title: "기관 교육 문의", subject: function (d) { return "[기관 교육 문의] " + (d["기관명"] || "") + " / " + (d["교육 대상"] || ""); } },
+  personal: { title: "개인 과정 문의", subject: function (d) { return "[개인 과정 문의] " + (d["이름"] || "") + " / " + (d["관심 과정"] || ""); } }
+};
+
+function collect(form) {
+  var data = {};
+  form.querySelectorAll("input[name], select[name], textarea[name]").forEach(function (el) {
+    var v = (el.value || "").trim();
+    if (v) data[el.name] = v;
+  });
+  return data;
+}
+
+function toText(kind, data) {
+  var lines = ["생각테라피교육연구소 " + LABELS[kind].title + "드립니다.", ""];
+  Object.keys(data).forEach(function (k) {
+    lines.push("· " + k + " : " + data[k]);
+  });
+  lines.push("", "─────────────────────", "생각테라피교육연구소 홈페이지에서 보낸 문의입니다.");
+  return lines.join("\n");
+}
+
+function mailtoHref(subject, body) {
+  return "mailto:" + TO_EMAIL + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+}
+
+function showStatus(box, cls, html) {
+  box.className = "form-status show " + cls;
+  box.innerHTML = html;
+}
+
+function openMailFallback(form, box, subject, body) {
+  var href = mailtoHref(subject, body);
+  var a = document.createElement("a");
+  a.href = href;
+  a.style.display = "none";
+  document.body.appendChild(a);
+  try { a.click(); } catch (e) {}
+  document.body.removeChild(a);
+  showStatus(box, "info",
+    "<b>메일 앱을 열었습니다.</b> 입력하신 내용이 그대로 담겨 있으니 그대로 보내주세요.<br>" +
+    "메일 앱이 열리지 않았다면 아래 버튼을 눌러 주세요." +
+    "<div class=\"row\">" +
+    "<a class=\"btn dark\" href=\"" + href.replace(/"/g, "&quot;") + "\">메일 앱 다시 열기</a>" +
+    "<button class=\"btn line\" type=\"button\" data-copy>내용 복사</button>" +
+    "</div>");
+  var copyBtn = box.querySelector("[data-copy]");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", function () {
+      var label = copyBtn.textContent;
+      var done = function () {
+        copyBtn.textContent = "복사했습니다";
+        setTimeout(function () { copyBtn.textContent = label; }, 1800);
+      };
+      var text = subject + "\n\n" + body;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () { legacyCopy(text, done); });
+      } else { legacyCopy(text, done); }
+    });
+  }
+}
+
+function legacyCopy(text, done) {
+  var ta = document.createElement("textarea");
+  ta.value = text;
+  ta.style.position = "fixed";
+  ta.style.opacity = "0";
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand("copy"); done(); } catch (e) {}
+  document.body.removeChild(ta);
+}
+
+document.querySelectorAll("form[data-form]").forEach(function (form) {
+  var kind = form.getAttribute("data-form");
+  var box = form.querySelector(".form-status");
+  var submitBtn = form.querySelector("button[type=submit]");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (!form.reportValidity()) return;
+
+    var data = collect(form);
+    var subject = LABELS[kind].subject(data);
+    var body = toText(kind, data);
+
+    if (!ACCESS_KEY) { openMailFallback(form, box, subject, body); return; }
+
+    var label = submitBtn.textContent;
+    submitBtn.disabled = true;
+    submitBtn.textContent = "보내는 중…";
+
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({
+        access_key: ACCESS_KEY,
+        subject: subject,
+        from_name: "생각테라피교육연구소 홈페이지",
+        replyto: data["회신받을 이메일"] || "",
+        message: body
+      })
+    }).then(function (r) { return r.json(); }).then(function (res) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = label;
+      if (res && res.success) {
+        form.reset();
+        showStatus(box, "ok",
+          kind === "org"
+            ? "<b>문의가 접수되었습니다.</b> 내용을 확인한 뒤 입력하신 이메일로 답변드리겠습니다."
+            : "<b>문의가 접수되었습니다.</b> 선행과정과 배우려는 목적을 확인한 뒤 신청 가능한 과정과 일정을 안내드리겠습니다.");
+      } else {
+        openMailFallback(form, box, subject, body);
+      }
+    }).catch(function () {
+      submitBtn.disabled = false;
+      submitBtn.textContent = label;
+      openMailFallback(form, box, subject, body);
+    });
+  });
+});
+</script>
+
+<script>
+var ROUTES = ["home","about","organization","personal","certificate","cases","contact","refund","privacy"];
+function currentRoute(){
+  var h = (location.hash || "").replace(/^#\/?/, "").split("?")[0];
+  return ROUTES.indexOf(h) >= 0 ? h : "home";
+}
+function render(scrollTo){
+  var r = currentRoute();
+  ROUTES.forEach(function(name){
+    var el = document.getElementById("page-" + name);
+    if (el) el.classList.toggle("active", name === r);
+  });
+  document.querySelectorAll(".site-nav a").forEach(function(a){
+    a.classList.toggle("on", (a.getAttribute("href") || "").replace(/^#\//, "") === r);
+  });
+  if (scrollTo) {
+    var target = document.getElementById(scrollTo);
+    if (target) { target.scrollIntoView({behavior:"smooth", block:"start"}); return; }
+  }
+  window.scrollTo(0, 0);
+}
+var header = document.querySelector(".site-header");
+var menuBtn = document.querySelector(".menu-btn");
+function closeMenu(){
+  if (!header) return;
+  header.classList.remove("open");
+  if (menuBtn) menuBtn.setAttribute("aria-expanded", "false");
+}
+if (menuBtn) {
+  menuBtn.addEventListener("click", function(){
+    var open = header.classList.toggle("open");
+    menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    menuBtn.setAttribute("aria-label", open ? "메뉴 닫기" : "메뉴 열기");
+  });
+}
+document.querySelectorAll(".site-nav a, .nav-cta, .brand").forEach(function(a){
+  a.addEventListener("click", closeMenu);
+});
+var pendingScroll = null;
+document.addEventListener("click", function(e){
+  var a = e.target.closest ? e.target.closest("a[data-scroll]") : null;
+  if (a) {
+    pendingScroll = a.getAttribute("data-scroll");
+    if (currentRoute() === "organization") { render(pendingScroll); pendingScroll = null; }
+  }
+});
+window.addEventListener("hashchange", function(){
+  var s = pendingScroll; pendingScroll = null;
+  closeMenu();
+  render(s);
+});
+render(null);
+</script>
+</body>
+</html>
