@@ -439,9 +439,11 @@ p,li,dd,.hero-copy,.lede-w,.info-card p,.step p,.rec-item span{text-wrap:pretty}
 @media (max-width:1040px){
   .site-header{flex-wrap:wrap;gap:10px}
   .menu-btn{display:inline-flex}
-  .site-nav{order:3;width:100%;display:none;flex-direction:column;align-items:stretch;gap:0;
+  .site-nav{order:3;width:100%;display:flex;flex-direction:column;align-items:stretch;gap:0;
+    max-height:0;opacity:0;overflow:hidden;pointer-events:none;
+    transition:max-height .25s ease,opacity .18s ease}
+  .site-header.open .site-nav{max-height:72vh;opacity:1;pointer-events:auto;overflow-y:auto;
     margin-top:4px;padding-top:4px;border-top:1px solid rgba(17,24,39,.10)}
-  .site-header.open .site-nav{display:flex}
   .site-nav a{padding:14px 2px;font-size:15.5px;border-bottom:1px solid rgba(17,24,39,.07)}
   .site-nav a:last-child{border-bottom:0}
   .hero{padding-top:148px;min-height:auto}
@@ -1967,7 +1969,13 @@ if (menuBtn) {
   });
 }
 document.querySelectorAll(".site-nav a, .nav-cta, .brand").forEach(function(a){
-  a.addEventListener("click", closeMenu);
+  a.addEventListener("click", function(){
+    var href = a.getAttribute("href") || "";
+    setTimeout(function(){
+      closeMenu();
+      if (href.charAt(0) === "#" && href === location.hash) render(null);
+    }, 0);
+  });
 });
 var pendingScroll = null;
 document.addEventListener("click", function(e){
