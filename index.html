@@ -203,6 +203,7 @@ h3{font-weight:900;letter-spacing:-.03em}
 .record .row{display:grid;grid-template-columns:96px 1fr;gap:20px;padding:17px 4px;
   border-bottom:1px solid var(--line);align-items:baseline}
 @media (max-width:600px){.record .row{grid-template-columns:1fr;gap:4px;padding:15px 4px}}
+.record.no-yr .row{grid-template-columns:1fr}
 .record .yr{font-weight:900;font-size:14px;color:var(--orange);font-variant-numeric:tabular-nums;white-space:nowrap}
 .record b{display:block;font-size:16.5px;font-weight:900;letter-spacing:-.025em;margin-bottom:3px;line-height:1.45}
 .record span{color:var(--muted);font-size:14.5px;line-height:1.6}
@@ -1347,33 +1348,33 @@ p,li,dd,.hero-copy,.lede-w,.info-card p,.step p,.rec-item span{text-wrap:pretty}
     <div class="section-head" style="margin-top:34px">
       <p class="kicker">RECORD</p>
       <h2>지금까지 함께한 교육</h2>
-      <p>연도와 기관, 진행한 교육 주제입니다.</p>
+      <p>함께한 기관과 진행한 교육 주제입니다.</p>
     </div>
-    <div class="record">
-      <div class="row"><span class="yr">2026</span><div><b>남양주교육청</b><span>학교도서관 활용 마인드맵</span></div></div>
-      <div class="row"><span class="yr">2026</span><div><b>양평교육청</b><span>사서를 위한 학교 도서관 마인드맵</span></div></div>
-      <div class="row"><span class="yr">2026</span><div><b>대구가톨릭대학교</b><span>AI와 마인드맵으로 그리는 진로 로드맵</span></div></div>
-      <div class="row"><span class="yr">2026</span><div><b>서울미림유치원</b><span>마인드맵 활용 언어활동 연수</span></div></div>
-      <div class="row"><span class="yr">2026</span><div><b>동일교회</b><span>묵상 마인드맵 · 나를 그리는 마인드맵테라피</span></div></div>
-      <div class="row"><span class="yr">2025</span><div><b>전북교육청</b><span>마인드맵을 통한 문제해결과 사고확장</span></div></div>
-      <div class="row"><span class="yr">2025</span><div><b>인문고전독서지도사협회</b><span>독서 마인드맵</span></div></div>
-      <div class="row"><span class="yr">2025</span><div><b>대구달성군가족센터</b><span>소통 마인드맵</span></div></div>
-      <div class="row"><span class="yr">2025</span><div><b>인천동구청년센터</b><span>청년 스트레스 관리 마인드맵테라피</span></div></div>
-      <div class="row"><span class="yr">2024–2025</span><div><b>Mission Motivators · Hosanna Academy</b><span>필리핀 현지학교 마인드맵 교육</span></div></div>
-      <div class="row"><span class="yr">2023–2024</span><div><b>서울시교육청</b><span>업무정리 스킬 마인드맵 · 일잘러가 되기 위한 생각정리스킬 · 한번에 끝내는 업무정리스킬</span></div></div>
-      <div class="row"><span class="yr">2024</span><div><b>중앙청년지원센터</b><span>소중한 나를 지키는 도구, 마인드맵 테라피</span></div></div>
-      <div class="row"><span class="yr">2024</span><div><b>평창군청년지원센터</b><span>개인역량 강화를 위한 마인드맵테라피</span></div></div>
-      <div class="row"><span class="yr">2024</span><div><b>미타임캠퍼스</b><span>실행력 UP 워크숍</span></div></div>
-      <div class="row"><span class="yr">2024</span><div><b>새에덴교회</b><span>청소년 리더십 — 생각정리 &amp; 독서 마인드맵</span></div></div>
-      <div class="row"><span class="yr">2023</span><div><b>충북문화재단</b><span>소통역량교육 마인드맵테라피</span></div></div>
-      <div class="row"><span class="yr">2023</span><div><b>인천마을교육공동체 (아라누림)</b><span>하브루타 마인드맵 교육</span></div></div>
-      <div class="row"><span class="yr">2023</span><div><b>하누리에듀케이션</b><span>대안교육 마을 활동가 마인드맵 코칭</span></div></div>
-      <div class="row"><span class="yr">2023</span><div><b>라이팅포라이트</b><span>작가를 위한 마인드맵테라피 특강</span></div></div>
-      <div class="row"><span class="yr">2023</span><div><b>고전으로여는세상</b><span>인문고전 독서토론 마인드맵 강의</span></div></div>
-      <div class="row"><span class="yr">2022</span><div><b>남부대학교</b><span>마인드맵 학습법 — 기억력을 촉진하는 학습법 · 맵핑전략</span></div></div>
-      <div class="row"><span class="yr">2022</span><div><b>UDEMY</b><span>마인드맵 테라피 온라인 동영상 강의 출시</span></div></div>
-      <div class="row"><span class="yr">2021</span><div><b>대전 세빛스쿨</b><span>교사 마인드맵 독서교육</span></div></div>
-      <div class="row"><span class="yr">2021</span><div><b>오아시스</b><span>성경 마인드맵</span></div></div>
+    <div class="record no-yr">
+      <div class="row"><div><b>남양주교육청</b><span>학교도서관 활용 마인드맵</span></div></div>
+      <div class="row"><div><b>양평교육청</b><span>사서를 위한 학교 도서관 마인드맵</span></div></div>
+      <div class="row"><div><b>대구가톨릭대학교</b><span>AI와 마인드맵으로 그리는 진로 로드맵</span></div></div>
+      <div class="row"><div><b>서울미림유치원</b><span>마인드맵 활용 언어활동 연수</span></div></div>
+      <div class="row"><div><b>동일교회</b><span>묵상 마인드맵 · 나를 그리는 마인드맵테라피</span></div></div>
+      <div class="row"><div><b>전북교육청</b><span>마인드맵을 통한 문제해결과 사고확장</span></div></div>
+      <div class="row"><div><b>인문고전독서지도사협회</b><span>독서 마인드맵</span></div></div>
+      <div class="row"><div><b>대구달성군가족센터</b><span>소통 마인드맵</span></div></div>
+      <div class="row"><div><b>인천동구청년센터</b><span>청년 스트레스 관리 마인드맵테라피</span></div></div>
+      <div class="row"><div><b>Mission Motivators · Hosanna Academy</b><span>필리핀 현지학교 마인드맵 교육</span></div></div>
+      <div class="row"><div><b>서울시교육청</b><span>업무정리 스킬 마인드맵 · 일잘러가 되기 위한 생각정리스킬 · 한번에 끝내는 업무정리스킬</span></div></div>
+      <div class="row"><div><b>중앙청년지원센터</b><span>소중한 나를 지키는 도구, 마인드맵 테라피</span></div></div>
+      <div class="row"><div><b>평창군청년지원센터</b><span>개인역량 강화를 위한 마인드맵테라피</span></div></div>
+      <div class="row"><div><b>미타임캠퍼스</b><span>실행력 UP 워크숍</span></div></div>
+      <div class="row"><div><b>새에덴교회</b><span>청소년 리더십 — 생각정리 &amp; 독서 마인드맵</span></div></div>
+      <div class="row"><div><b>충북문화재단</b><span>소통역량교육 마인드맵테라피</span></div></div>
+      <div class="row"><div><b>인천마을교육공동체 (아라누림)</b><span>하브루타 마인드맵 교육</span></div></div>
+      <div class="row"><div><b>하누리에듀케이션</b><span>대안교육 마을 활동가 마인드맵 코칭</span></div></div>
+      <div class="row"><div><b>라이팅포라이트</b><span>작가를 위한 마인드맵테라피 특강</span></div></div>
+      <div class="row"><div><b>고전으로여는세상</b><span>인문고전 독서토론 마인드맵 강의</span></div></div>
+      <div class="row"><div><b>남부대학교</b><span>마인드맵 학습법 — 기억력을 촉진하는 학습법 · 맵핑전략</span></div></div>
+      <div class="row"><div><b>UDEMY</b><span>마인드맵 테라피 온라인 동영상 강의 출시</span></div></div>
+      <div class="row"><div><b>대전 세빛스쿨</b><span>교사 마인드맵 독서교육</span></div></div>
+      <div class="row"><div><b>오아시스</b><span>성경 마인드맵</span></div></div>
       <p class="etc">그 외 공공기관·교육기관·교사 및 성인 대상 마인드맵 교육 다수. 성경 마인드맵 교육과 프로젝트는 2020년부터 이어오고 있습니다.</p>
     </div>
   </section>
