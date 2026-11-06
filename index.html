@@ -355,6 +355,8 @@ details.more .inner{padding-bottom:12px}
 .stat-box b{display:block;font-size:40px;font-weight:900;letter-spacing:-.045em;color:var(--orange);line-height:1.05;font-variant-numeric:tabular-nums}
 .stat-box span{display:block;margin-top:8px;font-size:14.5px;color:var(--muted);line-height:1.65}
 .voices{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+/* 카드 수가 홀수면 마지막 카드를 가로로 꽉 채워 빈칸을 없앤다 (후기 사이트에서 올린 후기가 늘었다 줄었다 하므로) */
+.voices>.voice:last-child:nth-child(odd){grid-column:1/-1}
 @media (max-width:820px){.voices{grid-template-columns:1fr}}
 .voices .subsec+.subsec{margin-top:0}
 .voice{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px 26px;box-shadow:var(--shadow2)}
@@ -719,6 +721,8 @@ p,li,dd,.hero-copy,.lede-w,.info-card p,.step p,.rec-item span{text-wrap:pretty}
       </div>
 
       <div class="voices">
+        <!-- REVIEWS:START -->
+        <!-- REVIEWS:END -->
         <div class="voice">
           <blockquote>“구조적인 업무가 주인 사서교사에게 좀 더 다양한 아이디어를 주셔서 좋았어요”</blockquote>
           <cite>남양주교육청 학교도서관 사서 직무연수 참여자</cite>

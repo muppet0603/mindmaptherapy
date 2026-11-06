@@ -82,5 +82,16 @@ def main():
     return 0
 
 
+def run_reviews():
+    """같은 아침 작업에서 강의 후기 사이트의 '올린 후기'도 반영한다.
+    (워크플로 파일을 고치지 않고 여기서 함께 실행한다. 실패해도 블로그 갱신에는 영향 없음)"""
+    import subprocess
+    tool = pathlib.Path(__file__).with_name("update_reviews.py")
+    if tool.exists():
+        subprocess.run([sys.executable, str(tool)] + sys.argv[1:2])
+
+
 if __name__ == "__main__":
-    raise SystemExit(main())
+    code = main()
+    run_reviews()
+    raise SystemExit(code)
